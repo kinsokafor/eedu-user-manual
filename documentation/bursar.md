@@ -21,6 +21,10 @@ Read [Getting started](getting-started.md) first.
 
 ---
 
+{% hint style="info" %}
+**The bursary needs a plan that includes it.** On the Free plan, fees, payments, debtors, online payment, and journals and accounts show a 🔒 notice instead of their screens. Nothing is deleted. Wallets and the canteen work on every plan. See [Plans and subscriptions](plans.md).
+{% endhint %}
+
 ## Your sidebar
 
 | Section | Items |
@@ -120,7 +124,7 @@ On a fee's dashboard, **SMS reminder to debtors → SMS debtors (N)**:
    - Debtors without a valid phone number are listed as skipped.
 3. Choose **Send**. If reminders were sent recently, you're warned before sending again.
 
-Bulk SMS must be enabled for your school.
+Bulk SMS must be included in your school's plan and set up for your school.
 
 ### A student's clearance bill
 From a student card choose **Reports**, or open a student's profile → **Financial Reports**. It shows:

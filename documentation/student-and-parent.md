@@ -59,7 +59,7 @@ When the school uses these features, you also see:
 
 ## Results
 
-**Academics → Results** lists each published result with the class, the period (term and session), the exam and the average. Open one to see the full report card, and choose **Print Result**.
+**Academics → Results** lists each published result with the class, the period (term and session), the exam and the average. Open one to see the full report card, and choose **Print Result**. If the school's plan doesn't include printing results, a notice appears instead of the button.
 
 The report card shows:
 - every subject with each part of the marking scheme, the total, grade and remark;
@@ -90,6 +90,10 @@ Please note:
 ---
 
 ## School fees
+
+{% hint style="info" %}
+Paying fees online needs the school's plan to include the bursary. If it doesn't, the fees screens show a notice; pay at the school's bursary instead.
+{% endhint %}
 
 **Bursary → Fees & Wallet → School fees** shows a table of fees. For each fee:
 - **Fee**, **Period**, **Amount Due**, **Payment Received** and **Balance**;

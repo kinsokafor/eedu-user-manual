@@ -85,7 +85,7 @@ School Admins, Deans and Portal Managers.
 - **Any behaviour entry:** open it to **Edit**, **Mark resolved** or **Reopen**, **Text the parent…**, or **Withdraw** (with a reason). Managers can do this at any time, and only managers can record a **suspension**.
 - **Texting a parent:**
   - You see the exact message and the phone number first.
-  - It can be sent **once per entry**, and only when bulk SMS is set up for the school.
+  - It can be sent **once per entry**, and only when the school's plan includes bulk SMS and bulk SMS is set up for the school.
   - If the student has no phone number on record, you're told.
 - **Safeguarding flags:** when a counsellor flags a concern, your dashboard card and **Pastoral Care → Counselling** show it.
   - Speak with the counsellor, then choose **Acknowledge**.

@@ -23,6 +23,7 @@ A Portal Manager also holds the School Admin, Dean and Bursar permissions. Every
 4. **Step 3, Your Information:** your name, email, phone number and password, and acceptance of the terms.
    - The password must have an upper-case letter, a lower-case letter and a number, and be at least 6 characters.
 5. Choose **Sign Up**. You become the school's Portal Manager and can sign in straight away.
+6. Your school starts a **30-day trial** of the plan you chose on the Pricing page. eedu.ng support will contact you to confirm the plan; if it isn't confirmed by the end of the trial, the school moves to the Free plan. See [Plans and subscriptions](plans.md#signing-up-the-30-day-trial).
 
 {% hint style="warning" %}
 The school type can't be changed casually later: it decides the class names (JSS 1… / Primary 1… / Level 100…), the terms or semesters, and the default subjects. Choose carefully.
@@ -50,7 +51,7 @@ Work through these in order before staff start entering results.
 | 12 | Set promotion rules | School Settings → Promotion Control |
 | 13 | Set attendance options, term dates and holidays | Utilities → Attendance |
 | 14 | Set up fee accounts, then create fees | Bursary → Fees & Accounts (see the [Bursar manual](bursar.md)) |
-| 15 | Ask eedu.ng support to switch on the extra features you want | [Section 6](#6-switching-features-on-and-off) |
+| 15 | Agree your plan with eedu.ng support before the trial ends | [Section 6](#6-your-plan-and-feature-switches) |
 | 16 | Create the term's exams | Academics → Exams & Results → Examinations → Create Exam |
 
 ---
@@ -175,25 +176,27 @@ A student is **Not promoted** if their annual average is in the fail band, or if
 
 ---
 
-## 6. Switching features on and off
+## 6. Your plan and feature switches
 
-These optional features are switched on or off per school:
-- **Timetables**
-- **CBT**
-- **Bookstore**
-- **Remote lessons**
-- **Pastoral care**
-- **Attendance**
+Your school's **plan** decides which of these are on:
+- **Publishing results** and **printing results**
+- **Bursary** (fees, payments, debtors, online payment)
+- **Journals and accounts**
+- **Bulk SMS**
+- **Timetables**, **Pastoral care** and **Attendance**
+- **CBT**, **Remote lessons** and **Bookstore**
+
+See [Plans and subscriptions](plans.md) for what each plan includes, the trial, renewal and invoices. The **plan banner** at the top of your dashboard shows your plan, when it renews or when your trial ends, and any plan balance.
 
 {% hint style="info" %}
-**Only eedu.ng support (Software Engineers) can switch features on or off.** Portal Managers see each feature's card and whether it's activated, but not the switch. To change one, contact eedu.ng support.
+**Only eedu.ng support (Software Engineers) can change your plan or switch features on or off.** Portal Managers see each feature's card and whether it's activated, with the plan that includes it, but not the switch. To change your plan, contact eedu.ng support.
 {% endhint %}
 
-- Switching a feature **on** makes its menus, screens and dashboard cards available to the staff and students who use it.
-- Switching it **off** hides it again. **Nothing is deleted.** Switching back on restores everything.
-- **(Software Engineer)** The switches are on the eEdu Admin dashboard. Check the school name in the sidebar first: a switch applies to the school currently selected.
+- When a feature is **on**, its menus, screens and dashboard cards are available to the staff and students who use it.
+- When it is **off**, its screens show a 🔒 notice or its buttons are removed. **Nothing is deleted.** Everything comes back when it's on again.
+- **(Software Engineer)** The switches are on the eEdu Admin dashboard. Check the school name in the sidebar first: a switch applies to the school currently selected. The school's plan sets the switches again when it moves to another plan. Plans themselves are managed under **School → Plan & Billing** (see [Plans and subscriptions](plans.md#software-engineer-managing-plans)).
 
-Canteen and wallets are always available. The canteen can't take sales until the bursar sets its accounts (see the [Bursar manual](bursar.md#canteen-and-wallet-settings)).
+Canteen and wallets are available on every plan. The canteen can't take sales until the bursar sets its accounts (see the [Bursar manual](bursar.md#canteen-and-wallet-settings)).
 
 ---
 

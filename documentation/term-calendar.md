@@ -81,7 +81,10 @@ A checklist of the recurring tasks in an eedu.ng school year, with who does each
 | A new fee wasn't created for a class | That class and stream already has a fee this term | Edit the existing fee's amount |
 | Canteen or bookstore refuses sales | The accounts aren't set | BR: Canteen Settings and Bookstore Settings |
 | A student can't buy in the canteen | Wallet balance too low or daily limit reached | Top up at the bursary |
-| Parents' SMS isn't sending | Bulk SMS not enabled, no SMS units, or no phone number on record | Ask support to enable it; recharge units; update the student's phone number |
-| Timetable, CBT, Lessons, Bookstore or Pastoral missing from menus and dashboard | Feature switched off for the school | Ask eedu.ng support to switch it on |
+| Parents' SMS isn't sending | Bulk SMS not in the school's plan or not set up, no SMS units, or no phone number on record | Check the plan; ask support to set it up; recharge units; update the student's phone number |
+| Timetable, CBT, Lessons, Bookstore or Pastoral missing from menus and dashboard | Not included in the school's plan | See [Plans and subscriptions](plans.md); ask eedu.ng support about upgrading |
+| A screen shows "🔒 … is locked", or **Print**/**Publish** buttons are missing | Not included in the school's plan | See [Plans and subscriptions](plans.md) |
+| Features stopped working a month after signing up | The 30-day trial ended without the plan being confirmed, so the school is on the Free plan | Contact eedu.ng support to confirm a plan |
+| The gate says clock-ins can't be recorded | Attendance isn't in the school's plan | Ask eedu.ng support about a plan that includes attendance |
 | "User already checked in for the current date" at the gate | The person is already clocked in | Clock them out first |
 | A lecturer signs in and sees a missing page | The Lecturer portal isn't built yet | See the note in the [Teacher manual](teacher.md#lecturers) |

@@ -41,6 +41,8 @@ You can:
 - view broadsheets and publish results, including annual results;
 - print results.
 
+Publishing and printing results need a plan that includes them; otherwise the buttons are replaced by a notice. See [Plans and subscriptions](plans.md).
+
 The full step-by-step workflow is in the [Dean manual](dean.md#results):
 - creating an exam;
 - Update Result, and entering scores from Excel;

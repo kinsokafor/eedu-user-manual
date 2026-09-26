@@ -53,6 +53,7 @@ Tips:
 Form Teachers also have, under **Exams & Results**:
 - **Broadsheet:** your class's subject totals, total, average and position. **Print**, and **Publish** your class's results. See the [Dean manual](dean.md#publishing-results).
 - **Print Result:** your class's published report cards.
+  - If your school's plan doesn't include publishing or printing results, those buttons are replaced by a notice. You can still enter scores and view the broadsheet.
   - Click a student's comment to change it. It saves by itself.
   - Make comment changes after the final publish, because publishing again resets comments to the automatic ones.
 - **Annual Broadsheet** and **Print Annual Result:** your class's annual results. Annual results are published by the Dean.

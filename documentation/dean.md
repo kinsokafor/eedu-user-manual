@@ -99,6 +99,10 @@ The **Examinations** page lists all exams. It shows the active term with a **Swi
 - Sort by **Name** or **Position**.
 - **Print** prints it. Tick *Check this box to print landscape* for wide classes.
 
+{% hint style="info" %}
+**Publishing and printing depend on your school's plan.** If your plan doesn't include them, the **Print** and **Publish** buttons are removed from the broadsheet, the annual broadsheet and report cards, and a notice says so. Scores can still be entered and the broadsheet viewed. See [Plans and subscriptions](plans.md).
+{% endhint %}
+
 ### Publishing results
 On the broadsheet choose **Publish**, then **Publish Result**, and confirm.
 - eedu.ng publishes each student in turn and shows its progress, for example "Done publishing Ada Okeke's result". Keep the page open until it finishes.

@@ -164,6 +164,10 @@ The full results workflow is in the [Dean manual](dean.md#results):
 
 ---
 
+{% hint style="info" %}
+**Some of what follows depends on your school's plan:** publishing and printing results, fees and accounts, bulk SMS, attendance at the gate, timetables, CBT, remote lessons and pastoral care. A screen your plan doesn't include shows a 🔒 notice. See [Plans and subscriptions](plans.md).
+{% endhint %}
+
 ## Fees, accounts, canteen and bookstore
 
 Everything in the [Bursar manual](bursar.md) is available to you:
@@ -202,7 +206,7 @@ A person's attendance history is on their profile (**Attendance Report**):
 - **Bulk SMS Reports:** your SMS account, unit balance, delivery report, message history and credit (payment) history.
 - **Recharging:** pay at nigeriabulksms.com, using your account's email address as the payment narration.
 
-Bulk SMS must first be enabled for your school by eedu.ng support.
+Bulk SMS must be included in your school's plan, and then set up for your school by eedu.ng support.
 
 ---
 

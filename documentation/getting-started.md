@@ -43,7 +43,8 @@ After signing in you land on your role's portal:
 
 - **Sidebar (left):** the menus for your role, grouped under headings such as *Academics*, *Bursary*, *Management* and *Utilities*. An item with an arrow opens a sub-menu. On a phone, open the sidebar with the menu button at the top left.
 - **School name (top of the sidebar):** if you work in more than one school on eedu.ng, click it to switch schools. Everything you then see and do applies to the chosen school.
-- **Dashboard:** your start page. It shows counters and a card for each feature you use. Cards for Timetable, CBT, Remote Lessons, Bookstore and Pastoral Care only appear when that feature is switched on for your school.
+- **Dashboard:** your start page. It shows counters and a card for each feature you use. Cards for Timetable, CBT, Remote Lessons, Bookstore and Pastoral Care only appear when your school's plan includes that feature.
+- **🔒 locked screens and missing buttons:** a screen or button your school's plan doesn't include shows a notice such as *"Bursary (fees and payments) is not included in this school's plan."* It isn't a fault and nothing is lost. See [Plans and subscriptions](plans.md).
 - **Account menu (your photo, top right):**
   - **Profile:** your details.
   - **Change Password.**
@@ -62,7 +63,7 @@ After signing in you land on your role's portal:
 
 - **Server clock notice.** Some forms show "The server's clock reads … which is N behind this device". This only means the server keeps time in a different time zone. Times are saved exactly as you enter them.
 - **Nothing sensitive is deleted.** Behaviour records, welfare notes, counselling sessions, and canteen and bookstore sales are *withdrawn* or *voided*, with a reason, instead of being deleted. The history stays.
-- **Printing.** Screens with a **Print** button (report cards, broadsheets, receipts, class lists, room lists, house tables) open your browser's print window with the school's letterhead at the top.
+- **Printing.** Screens with a **Print** button (report cards, broadsheets, receipts, class lists, room lists, house tables) open your browser's print window with the school's letterhead at the top. Printing results needs a plan that includes it; otherwise the **Print** button is replaced by a notice.
 - **Money** is shown in Naira (₦) unless your school uses another currency.
 
 ## 5. Your profile

@@ -82,6 +82,6 @@ A checklist of the recurring tasks in an eedu.ng school year, with who does each
 | Canteen or bookstore refuses sales | The accounts aren't set | BR: Canteen Settings and Bookstore Settings |
 | A student can't buy in the canteen | Wallet balance too low or daily limit reached | Top up at the bursary |
 | Parents' SMS isn't sending | Bulk SMS not enabled, no SMS units, or no phone number on record | Ask support to enable it; recharge units; update the student's phone number |
-| Timetable, CBT, Lessons, Bookstore or Pastoral missing from menus and dashboard | Feature switched off for the school | PM: switch it on from the dashboard |
+| Timetable, CBT, Lessons, Bookstore or Pastoral missing from menus and dashboard | Feature switched off for the school | Ask eedu.ng support to switch it on |
 | "User already checked in for the current date" at the gate | The person is already clocked in | Clock them out first |
 | A lecturer signs in and sees a missing page | The Lecturer portal isn't built yet | See the note in the [Teacher manual](teacher.md#lecturers) |

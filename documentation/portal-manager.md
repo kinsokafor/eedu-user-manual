@@ -50,7 +50,7 @@ Work through these in order before staff start entering results.
 | 12 | Set promotion rules | School Settings → Promotion Control |
 | 13 | Set attendance options, term dates and holidays | Utilities → Attendance |
 | 14 | Set up fee accounts, then create fees | Bursary → Fees & Accounts (see the [Bursar manual](bursar.md)) |
-| 15 | Switch on the extra features you want | Dashboard cards (section 6) |
+| 15 | Ask eedu.ng support to switch on the extra features you want | [Section 6](#6-switching-features-on-and-off) |
 | 16 | Create the term's exams | Academics → Exams & Results → Examinations → Create Exam |
 
 ---
@@ -177,16 +177,21 @@ A student is **Not promoted** if their annual average is in the fail band, or if
 
 ## 6. Switching features on and off
 
-Your dashboard has a card for each optional feature with an on/off switch:
+These optional features are switched on or off per school:
 - **Timetables**
 - **CBT**
 - **Bookstore**
 - **Remote lessons**
 - **Pastoral care**
+- **Attendance**
+
+{% hint style="info" %}
+**Only eedu.ng support (Software Engineers) can switch features on or off.** Portal Managers see each feature's card and whether it's activated, but not the switch. To change one, contact eedu.ng support.
+{% endhint %}
 
 - Switching a feature **on** makes its menus, screens and dashboard cards available to the staff and students who use it.
 - Switching it **off** hides it again. **Nothing is deleted.** Switching back on restores everything.
-- Check the school name in the sidebar before switching. The switch applies to the school currently selected.
+- **(Software Engineer)** The switches are on the eEdu Admin dashboard. Check the school name in the sidebar first: a switch applies to the school currently selected.
 
 Canteen and wallets are always available. The canteen can't take sales until the bursar sets its accounts (see the [Bursar manual](bursar.md#canteen-and-wallet-settings)).
 
@@ -222,7 +227,6 @@ It also offers **Update Result**, **Broadsheet**, **Results**, **Download Excel*
 ## 8. Attendance settings
 
 **Utilities → Attendance → Settings**:
-- **Activate Attendance?**
 - **Days-off (weekend):** days with no school, for example Saturday and Sunday.
 - **School type:** day or boarding.
 - **School timezone:** Africa/Lagos for Nigerian schools.

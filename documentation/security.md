@@ -29,7 +29,7 @@ At the top: today's date, the school and the active term, and two large buttons:
 
 Below them:
 - **Notices:**
-  - "Attendance is not activated for this school": clock-ins still work, but ask an administrator to switch attendance on in Attendance Settings.
+  - "Attendance is not activated for this school": clock-ins still work, but ask the school office to have eedu.ng support switch attendance on.
   - "Today is a holiday" or "Today is one of the school's days off".
 - **Counts** for **Students** and **Staff**:
   - **Arrived:** clocked in at least once today;

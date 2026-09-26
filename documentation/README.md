@@ -21,7 +21,7 @@ Everyone signs in at the same address. Each person then lands on the **portal** 
 ## How roles and permissions work
 
 - **Every account has one role.** The role decides which portal you land on and what you can do. A school admin sets a staff member's role when adding them, and can change it later.
-- **Some features are switched on per school.** Timetable, CBT, Remote Lessons, Bookstore and Pastoral Care are off until the school's Portal Manager (or eedu.ng support) switches them on from the dashboard. Until then, their screens say the feature is "not activated for this school" and their dashboard cards stay hidden.
+- **Some features are switched on per school.** Timetable, CBT, Remote Lessons, Bookstore, Pastoral Care and Attendance are off until eedu.ng support switches them on for your school. Only eedu.ng support can switch them on or off; ask them when your school is ready. Until then, their screens say the feature is "not activated for this school" and their dashboard cards stay hidden.
 - **Pastoral duties sit on top of a role.** Counsellor, welfare officer, house master and hostel master are not roles. A manager gives these duties to staff inside Pastoral Care, and they add to what that person can already do.
 - **Staff can belong to several schools.** If you work in more than one school on eedu.ng, the school name at the top of the sidebar is a switch. Choose the school you want to work on.
 

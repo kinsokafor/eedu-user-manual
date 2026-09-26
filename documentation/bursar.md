@@ -1,3 +1,9 @@
+---
+description: >-
+  Fees, payments, exemptions, debtor reminders, accounts and journals, wallets, the canteen and the bookstore.
+icon: money-bill-wave
+---
+
 # Bursar
 
 Portal: `/eedu/bursar/`
@@ -23,7 +29,9 @@ Read [Getting started](getting-started.md) first.
 | **Management** | School · Students · Staff |
 | **Utilities** | Attendance |
 
-> The **SMS & Printing** item also appears in your sidebar, but those screens aren't part of the Bursar portal and open a "not found" page. To send debtor reminders, use the **SMS debtors** button on a fee (below). For other bulk SMS, ask a School Admin.
+{% hint style="info" %}
+The **SMS & Printing** item also appears in your sidebar, but those screens aren't part of the Bursar portal and open a "not found" page. To send debtor reminders, use the **SMS debtors** button on a fee (below). For other bulk SMS, ask a School Admin.
+{% endhint %}
 
 Your dashboard shows the school counters, a fee collection summary, and the Canteen and Bookstore cards.
 
@@ -75,7 +83,9 @@ Ask support to switch on what your school needs.
 5. **Class:** one or more. **Stream:** one or more.
 6. Save. A fee is created for each class and stream combination, and the page lists this term's fees.
 
-> **One fee per class and stream per term.** If a class and stream already has a fee this term, a second one isn't created. To charge more, **Edit** the existing fee's amount, or create the extra fee for the next term. Book packs from the bookstore are separate and don't count against this.
+{% hint style="info" %}
+**One fee per class and stream per term.** If a class and stream already has a fee this term, a second one isn't created. To charge more, **Edit** the existing fee's amount, or create the extra fee for the next term. Book packs from the bookstore are separate and don't count against this.
+{% endhint %}
 
 ### Managing fees
 **Fees & Accounts → Manage Fees.** Choose the **Section** and **Term**. Each fee shows:

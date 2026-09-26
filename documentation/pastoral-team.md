@@ -1,3 +1,9 @@
+---
+description: >-
+  Behaviour, welfare, counselling, houses and boarding: who sees what, and guides for each pastoral duty.
+icon: hand-holding-heart
+---
+
 # Pastoral Team
 
 Pastoral Care (when switched on for your school) keeps each student's behaviour, welfare, counselling, house and boarding records together. It's built around one principle: **each person sees what they need, and nothing more.** Every opening of a sensitive record is logged.
@@ -65,7 +71,7 @@ School Admins, Deans and Portal Managers.
 
    Set up houses and hostels first. Every team change is recorded in the access log.
 
-   > Managers can add themselves as counsellors. Keep the counsellor list to trained counsellors; the access log shows any change.
+   **Note:** Managers can add themselves as counsellors. Keep the counsellor list to trained counsellors; the access log shows any change.
 2. **Behaviour categories.** eedu.ng starts you with common ones, which you can rename or add to:
    - commendations: excellent work, helpfulness, leadership, sport or arts;
    - concerns: lateness, uniform, disruption in class, bullying, fighting, exam malpractice, damage to property.

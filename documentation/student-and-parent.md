@@ -1,3 +1,9 @@
+---
+description: >-
+  Results, scratch cards, paying fees online, the wallet, lessons, assignments, CBT tests and conduct.
+icon: children
+---
+
 # Students and Parents
 
 Portal: `/eedu/student/`
@@ -64,7 +70,9 @@ The report card shows:
 
 Annual (end-of-session) results appear too, when the school publishes them.
 
-> A result only appears once the school has **published** it. If your class's results are out but yours isn't, ask the form teacher.
+{% hint style="info" %}
+A result only appears once the school has **published** it. If your class's results are out but yours isn't, ask the form teacher.
+{% endhint %}
 
 ### Checking results with a scratch card
 Some schools require a **scratch card PIN** to open a result.

@@ -1,3 +1,9 @@
+---
+description: >-
+  Clocking students and staff in and out at the gate, and recording gate incidents.
+icon: shield-halved
+---
+
 # Security (Gate)
 
 Portal: `/eedu/security/`
@@ -49,7 +55,9 @@ Rules:
 - People can go in and out more than once a day: each in-and-out is recorded.
 - Times use the school's time zone.
 
-> **No card?** The gate only reads ID cards. There is no passcode entry at the gate. Send the person to the school office to have their card replaced (see the [Portal Manager manual](portal-manager.md#id-cards-software-engineer)).
+{% hint style="warning" %}
+**No card?** The gate only reads ID cards. There is no passcode entry at the gate. Send the person to the school office to have their card replaced (see the [Portal Manager manual](portal-manager.md#id-cards-software-engineer)).
+{% endhint %}
 
 ### Why it matters
 - Each person's **attendance score** (days present ÷ school days in the term) comes from these records. Holidays, days off and approved permissions don't count as absences.

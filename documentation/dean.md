@@ -1,3 +1,9 @@
+---
+description: >-
+  Exams, score entry, broadsheets, publishing, report cards, annual results, promotion and timetables.
+icon: graduation-cap
+---
+
 # Dean of Studies
 
 Portal: `/eedu/dean/`
@@ -40,7 +46,9 @@ The dashboard shows school counters and the Timetable, CBT, Remote Lessons and P
 5. **Report cards** are printed from **Print Result**.
 6. At the end of the session, **annual results** combine the exams marked *Use result for annual*, and decide promotion.
 
-> Scores changed after publishing are **not** visible to students until the result is published again. This protects published results from quiet edits: every change is recorded and has to be deliberately republished.
+{% hint style="info" %}
+Scores changed after publishing are **not** visible to students until the result is published again. This protects published results from quiet edits: every change is recorded and has to be deliberately republished.
+{% endhint %}
 
 ### 1. Creating the term's exam
 **Academics → Exams & Results → Examinations → Create Exam.** Portal Managers and HODs can do this too.
@@ -104,7 +112,7 @@ This screen works on **published** results, so publish from the broadsheet first
 
 1. Choose the **Class** and **Stream**. Each student shows their total, subjects offered, average, position and comment.
 2. **To change a comment:** click it, type the new comment, and it saves by itself about two seconds after you stop typing (or choose **Save**). The change goes straight into the published result.
-   > Publishing the class again from the broadsheet rewrites the comments. Make comment changes *after* the final publish.
+   **Note:** Publishing the class again from the broadsheet rewrites the comments. Make comment changes *after* the final publish.
 3. Open a student's result and choose **Print Result**.
 
 The report card has:

@@ -1,10 +1,18 @@
+---
+description: >-
+  Score entry, form-teacher duties, CBT tests, remote lessons, assignments and recording behaviour.
+icon: chalkboard-user
+---
+
 # Teacher and Form Teacher
 
 Portals: `/eedu/teacher/` (Teacher) and `/eedu/form-teacher/` (Form Teacher)
 
 A **Form Teacher** has everything a Teacher has, plus the class-teacher tasks marked **(Form Teacher)**. Read [Getting started](getting-started.md) first.
 
-> **Your subjects come first.** You can only enter scores, write lessons and set tests for the subjects and classes assigned to you on your staff profile. If a screen says you have no subjects, ask a School Admin to open your staff profile, choose **Subjects**, and tick what you teach.
+{% hint style="info" %}
+**Your subjects come first.** You can only enter scores, write lessons and set tests for the subjects and classes assigned to you on your staff profile. If a screen says you have no subjects, ask a School Admin to open your staff profile, choose **Subjects**, and tick what you teach.
+{% endhint %}
 
 ---
 

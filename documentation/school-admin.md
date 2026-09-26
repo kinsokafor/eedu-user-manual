@@ -1,3 +1,9 @@
+---
+description: >-
+  Running the school day to day: students, staff, results, fees, attendance, bulk SMS and pastoral care.
+icon: school
+---
+
 # School Admin
 
 Portal: `/eedu/school-admin/`
@@ -128,7 +134,9 @@ Staff profile → **Permissions**:
 
 Existing permissions are listed below the form.
 
-> Student permissions can't be granted from a student's profile yet.
+{% hint style="warning" %}
+Student permissions can't be granted from a student's profile yet.
+{% endhint %}
 
 ### Printing a staff list
 **Management → Staff → Print Staff List.** Choose the columns, then print.

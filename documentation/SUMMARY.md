@@ -1,27 +1,27 @@
 # Table of contents
 
 * [Welcome](README.md)
+* [Getting started](getting-started.md)
+* [Term calendar](term-calendar.md)
 
-## Getting Started
+## Administration
 
-* [Getting started](getting-started/getting-started.md)
-* [Quickstart](getting-started/quickstart.md)
-* [Your first project](getting-started/your-first-project.md)
+* [Portal Manager and eEdu Administrator](portal-manager.md)
+* [School Admin](school-admin.md)
+* [Dean of Studies](dean.md)
+* [Head of Department](hod.md)
 
-## Core concepts
+## Teaching and pastoral care
 
-* [Core concepts](core-concepts/core-concepts.md)
-* [Workspaces and projects](core-concepts/workspaces-and-projects.md)
-* [Permissions](core-concepts/permissions.md)
+* [Teacher and Form Teacher](teacher.md)
+* [Pastoral Team](pastoral-team.md)
 
-## Guides
+## Finance and services
 
-* [Guides](guides/guides.md)
-* [Custom domains](guides/custom-domains.md)
-* [Automations](guides/automations.md)
+* [Bursar](bursar.md)
+* [Canteen](canteen.md)
+* [Security](security.md)
 
-## Reference
+## Students and parents
 
-* [Reference](reference/reference.md)
-* [Configuration](reference/configuration.md)
-* [Glossary](reference/glossary.md)
+* [Students and Parents](student-and-parent.md)

@@ -1,3 +1,9 @@
+---
+description: >-
+  Department progress, results and students for Heads of Department in tertiary institutions.
+icon: building-columns
+---
+
 # Head of Department (HOD)
 
 Portal: `/eedu/hod/`
@@ -43,7 +49,9 @@ The full step-by-step workflow is in the [Dean manual](dean.md#results):
 - annual results and promotion;
 - tracking the latest score entries.
 
-> You enter scores only for the subjects assigned to you. Deans, School Admins and Portal Managers can enter any subject.
+{% hint style="info" %}
+You enter scores only for the subjects assigned to you. Deans, School Admins and Portal Managers can enter any subject.
+{% endhint %}
 
 ## Timetable
 

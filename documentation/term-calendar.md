@@ -1,3 +1,9 @@
+---
+description: >-
+  What to do at the start of term, during term, in results season and at the new session, with a troubleshooting table.
+icon: calendar-days
+---
+
 # Term Calendar: What to Do and When
 
 A checklist of the recurring tasks in an eedu.ng school year, with who does each one. Links go to the detailed steps.

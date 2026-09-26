@@ -1,3 +1,9 @@
+---
+description: >-
+  Signing in, finding your way around, messages and staying safe. Start here, whatever your role.
+icon: rocket-launch
+---
+
 # Getting Started and Everyday Tasks
 
 This guide is for everyone who uses eedu.ng: staff, students and parents. Your role's own manual builds on it.

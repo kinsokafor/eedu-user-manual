@@ -1,3 +1,9 @@
+---
+description: >-
+  Selling to students from their wallets, and managing canteen items and prices.
+icon: utensils
+---
+
 # Canteen
 
 Portal: `/eedu/canteen/`

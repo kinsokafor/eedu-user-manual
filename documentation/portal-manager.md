@@ -1,3 +1,9 @@
+---
+description: >-
+  Setting a school up, School Settings, changing term or session, promotion rules, feature switches, scratch and ID cards.
+icon: user-gear
+---
+
 # Portal Manager and eEdu Administrator
 
 Portal: `/eedu/admin/`
@@ -18,7 +24,9 @@ A Portal Manager also holds the School Admin, Dean and Bursar permissions. Every
    - The password must have an upper-case letter, a lower-case letter and a number, and be at least 6 characters.
 5. Choose **Sign Up**. You become the school's Portal Manager and can sign in straight away.
 
-> The school type can't be changed casually later: it decides the class names (JSS 1… / Primary 1… / Level 100…), the terms or semesters, and the default subjects. Choose carefully.
+{% hint style="warning" %}
+The school type can't be changed casually later: it decides the class names (JSS 1… / Primary 1… / Level 100…), the terms or semesters, and the default subjects. Choose carefully.
+{% endhint %}
 
 ---
 
@@ -63,7 +71,9 @@ The grade bands used on report cards and broadsheets. Each row has:
 - **Remark** (for example *Excellent*);
 - a **Color**.
 
-> **Important:** the band that starts at **0** is treated as the *fail* band everywhere: in promotion decisions and in counting failed subjects. Make sure your lowest band starts at 0 and covers only failing scores.
+{% hint style="warning" %}
+**Important:** the band that starts at **0** is treated as the *fail* band everywhere: in promotion decisions and in counting failed subjects. Make sure your lowest band starts at 0 and covers only failing scores.
+{% endhint %}
 
 ### Marking Scheme
 How each subject's 100 marks are split.

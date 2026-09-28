@@ -64,6 +64,7 @@ Signing up for the **Free plan** starts no trial.
 - **Plans renew automatically every term.** Nobody has to renew them.
 - **Schools pay after the term.** At the end of each term eedu.ng sends an invoice worked out from your number of active students, or from the price agreed with your school.
 - **An unpaid invoice never locks your school out.** It shows as a balance on the dashboard banner.
+- **Seeing and printing your invoices:** Portal Managers, School Admins and Bursars open **School → Plan & Invoices** (or **View invoices** on the dashboard banner). It lists your school's invoices with the amount paid, the balance and the due date. **View** opens an invoice to print; quote its number (for example `EEDU-000123`) when you pay.
 - **Changing plan:** contact eedu.ng support. A new plan's features switch on straight away.
 - **Leaving a plan:** when eedu.ng support stops your plan, your school moves to the Free plan straight away.
 
@@ -76,7 +77,10 @@ These screens are in the **School** menu of the eEdu Admin portal. Check the sch
   - **Trials:** a school on trial shows **Confirm plan** and **End trial now**.
   - **Negotiated pricing:** plan price per child, a negotiated price per child, or a flat amount per term. It applies to every future invoice and updates draft invoices; issued invoices keep their price.
   - **Invoices:** preview and create the term's draft invoice, correct the student count or price, **Issue** it, and record payments (bank transfer, cash, cheque, POS). Void an invoice only while nothing has been paid on it.
-- **Plan Invoices:** every school's invoices, the total outstanding, **Trials awaiting confirmation**, and **Bill the term**, which creates draft invoices for every school on a paid plan.
+  - **Extra charges:** on a draft, **Charges** adds lines such as onboarding, training or SMS units (description, quantity, price). They are added to the invoice total and can't be changed once it is issued.
+  - **Printing:** the print button opens the invoice as a document (invoice number, the school's details, every line, payments and the balance) with **Print invoice**.
+- **Plan Invoices:** every school's invoices, the total outstanding, **Trials awaiting confirmation**, and **Bill the term**, which creates draft invoices for every active school on a paid plan. Inactive schools are skipped.
+  - **Invoice details:** eedu.ng's address and bank details, printed on every invoice.
 - **Plan Features:** which features each plan includes, including the Free plan.
   - A feature with a **key** switches that part of eEdu on or off with the plan. Pick a key from the suggestions, or from **Keys not used yet**.
   - Changes apply to a school when it next moves onto a plan. **Apply to all schools now** applies them straight away, and replaces any feature switches set by hand.

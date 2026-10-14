@@ -70,7 +70,8 @@ Payment settings are managed by eedu.ng support (**Fees & Accounts → Options**
 - **Use wallet?** and **Wallet Journal.**
 - **Currency.**
 - **Activate virtual account?** Parents pay into a one-time bank account.
-- **Charge on parents?** Whether transfer charges are added to what parents pay.
+- **Virtual account provider:** the payment company that issues those accounts (**Squad** or **Monnify**). Accounts already given to parents keep working if support switches the provider.
+- **Charge on parents?** Whether transfer charges are added to what parents pay (Squad). For Monnify, who pays the charge is set on the school's Monnify contract.
 
 Ask support to switch on what your school needs.
 
@@ -85,11 +86,31 @@ Ask support to switch on what your school needs.
 3. **Amount.**
 4. **Period:** the **Term** and **Section** (session).
 5. **Class:** one or more. **Stream:** one or more.
-6. Save. A fee is created for each class and stream combination, and the page lists this term's fees.
+6. **Part payment** (optional): see [Letting parents pay in parts](#letting-parents-pay-in-parts).
+7. Save. A fee is created for each class and stream combination, and the page lists this term's fees.
 
 {% hint style="info" %}
 **One fee per class and stream per term.** If a class and stream already has a fee this term, a second one isn't created. To charge more, **Edit** the existing fee's amount, or create the extra fee for the next term. Book packs from the bookstore are separate and don't count against this.
 {% endhint %}
+
+### Letting parents pay in parts
+A fee can allow **part payment** (installments). Turn on **Allow parents to pay this fee in parts?** when you create the fee, or later with **Edit**, and set:
+- **First installment minimum:** the least a parent can pay the first time, as an **Amount (₦)** or a **Percent of fee (%)**.
+- **Later installments minimum:** the least for each payment after the first, again as an amount or a percentage.
+- **Maximum number of installments** (optional, 2 to 24). Leave it empty for no limit.
+
+A line under the form shows what parents will see, for example: *On ₦41,000: first payment at least ₦16,400, then at least ₦10,000 each, in at most 4 payments.*
+
+eedu.ng applies these rules every time a parent pays:
+- A payment can't leave a balance smaller than the later-installments minimum. The parent either pays a bit less or clears the fee.
+- When the balance is too small to split, or the last allowed installment is reached, the balance must be paid in full.
+- The first installment's minimum can't be smaller than the later one's.
+
+{% hint style="info" %}
+**Changing the rules** applies to future payments only. What parents have already paid stays as it is, and every change is recorded with who made it and when.
+{% endhint %}
+
+Fees without part payment must be paid in full, as before.
 
 ### Managing fees
 **Fees & Accounts → Manage Fees.** Choose the **Section** and **Term**. Each fee shows:
@@ -103,7 +124,7 @@ Open a fee to see its dashboard.
 ### A fee's dashboard
 **Students** tab: a card for each student in the class, with their balance and status. From a card:
 - **Reports:** the student's clearance bill (see below).
-- **Add payment:** record a payment received at the bursary. Enter the **Amount** and a **Reference** (receipt or teller number). Only available when manual payment updates are on.
+- **Add payment:** record a payment received at the bursary. Enter the **Amount** and a **Reference** (receipt or teller number). Only available when manual payment updates are on. The page shows the student's balance and, for fees with part payment, the amounts allowed now. If the amount breaks the fee's part-payment rules (for example it's below the minimum, or more than the balance), tick **Override the part-payment rules** and give a reason. Overrides are recorded with who made them.
 - **Exempt:** remove the student from this fee, for example on a scholarship. **Re-include** reverses it.
 - **Generate Virtual Account:** create a one-time bank account for the parent to pay into (see below).
 
@@ -129,7 +150,7 @@ Bulk SMS must be included in your school's plan and set up for your school.
 ### A student's clearance bill
 From a student card choose **Reports**, or open a student's profile → **Financial Reports**. It shows:
 - the **Termly Clearance Bill** for the fee;
-- the student's **Payment records** (date, amount, reference, who approved it);
+- the student's **Payment records** (date, amount, reference, who approved it), each with a **Receipt** button;
 - their **Debt profile** across all terms (fee, period, amount, paid, balance);
 - the **Total debt** and **Clearance Status**: *Cleared* or *Not cleared*.
 
@@ -138,14 +159,24 @@ Print it for the parent.
 ### Online payment by virtual account
 When virtual accounts are active, a parent pays like this:
 1. They open the student's portal → **School fees** and choose **Pay** on a fee. The bursar can also **Generate Virtual Account** from the student's card.
-2. eedu.ng shows a bank **Account number**, **Bank** and **Account name**, the exact **amount due**, and an expiry countdown.
-3. The parent transfers **the exact amount** before it expires, then chooses **I have made this payment**.
-4. The payment is recorded against the fee and posted to the accounts automatically.
+2. If the fee allows part payment, they choose how much to pay now: **Minimum**, **About half**, **Full balance**, or an amount they type. eedu.ng checks it against the fee's rules before going on.
+3. eedu.ng shows a bank **Account number**, **Bank** and **Account name**, the exact amount to pay, and an expiry countdown.
+4. The parent transfers **the exact amount** before it expires, then chooses **I have made this payment**.
+5. The payment is recorded against the fee and posted to the accounts automatically, and the parent gets a **View receipt** button. With part payment, they also see the remaining balance and can **Pay next installment**.
 
-Anything paid above the balance goes into the student's wallet.
+Anything paid above the balance goes into the student's wallet. If the parent leaves and comes back, the same account is shown until it expires.
+
+### Payment receipts
+Every recorded payment has a receipt, with the school's letterhead, that can be printed or saved as a PDF. It shows:
+- the **receipt number**, for example *PMT0000000148*. It matches the payment's journal voucher, so you can trace it in the accounts;
+- the student, reg. no., class, and what the payment was for;
+- the payment method (*Bank transfer (Squad)*, *Bank transfer (Monnify)* or *Recorded by the bursary*), the reference, and who received it for bursary payments;
+- the amount paid, any excess credited to the wallet, the installment number for part payments, the total paid on the fee and the balance after this payment.
+
+Open a receipt with the **Receipt** button in the **Payments** report, a student's clearance bill, or the student's **Financial Reports**. Bursars and school admins see receipts for their own school's students.
 
 ### Payment report
-**Fees & Accounts → Payments.** Choose a **Start date** and **End date** to list every payment received: purpose, amount and date.
+**Fees & Accounts → Payments.** Choose a **Start date** and **End date** to list every payment received: purpose, amount and date, each with a **Receipt** button.
 
 ---
 

@@ -99,18 +99,35 @@ Paying fees online needs the school's plan to include the bursary. If it doesn't
 - **Fee**, **Period**, **Amount Due**, **Payment Received** and **Balance**;
 - a **Pay** button, or *Paid completely*.
 
-Below it is the list of **Payments received**.
+Below it is the list of **Payments received**, each with a **Receipt** button.
 
 ### Paying online
 1. Choose **Pay ₦…** on a fee. Or use **Quick Portal Access → Pay Fees** on the home page.
-2. eedu.ng shows a bank **Account number**, **Bank** and **Account name**, the exact **Total amount due**, and when it **expires** (a countdown).
-3. Transfer **exactly** that amount from your bank app before it expires.
-4. Choose **I have made this payment**. When the payment is confirmed you'll see **Payment Successful!**. It's recorded against the fee straight away.
+2. If the school lets you pay this fee in parts, choose how much to pay now (see [Paying in parts](#paying-in-parts)). Otherwise you pay the full balance.
+3. eedu.ng shows a bank **Account number**, **Bank** and **Account name**, the exact **Amount to pay now**, and when it **expires** (a countdown).
+4. Transfer **exactly** that amount from your bank app before it expires.
+5. Choose **I have made this payment**. When the payment is confirmed you'll see **Payment Successful!** and a **View receipt** button. It's recorded against the fee straight away.
 
 Tips:
 - Pay the exact amount shown. Anything above the balance goes into the student's wallet.
-- If the account expires before you pay, choose **Pay** again for a new one.
+- If you leave the page and come back before the account expires, you'll see the same account.
+- If the account expires before you pay, a new one is created for the same amount.
 - You can also pay at the school's bursary. Ask for a receipt: the bursar records it on the student's account.
+
+### Paying in parts
+Some fees can be paid in installments. The school sets the smallest amount for the first payment and for each payment after it, and sometimes the most payments allowed.
+
+When you choose **Pay** on such a fee:
+1. Pick **Minimum**, **About half** or **Full balance**, or type the amount you want to pay now. The page shows how much will be left.
+2. If the amount isn't allowed, the page says why and what you can pay instead. For example, a payment can't leave a balance smaller than the next minimum, so you'd either pay a little less or clear the fee.
+3. Choose **Generate payment account** and pay as above.
+
+A bar shows how much of the fee is paid, and how many payments you've made. After each payment you'll see the **remaining balance** and the next minimum. Choose **Pay next installment** when you're ready. When the balance is small, or you reach the last payment allowed, you'll be asked to pay the full balance.
+
+To change the amount after generating an account, choose **Pay a different amount**. Only pay into the newest account: the earlier one stays open until it expires.
+
+### Receipts
+Every payment has a receipt. Open it with **View receipt** after paying, or with the **Receipt** button under **Payments received**. It shows the receipt number, what was paid, how, the balance after the payment and, for installments, which payment it was. Choose **Print / save as PDF** to keep a copy.
 
 ### Wallet statement
 **Bursary → Fees & Wallet → Wallet statement** lists every wallet movement: top-ups at the bursary, canteen purchases, book purchases, refunds, and fee overpayments. It shows the balance after each.

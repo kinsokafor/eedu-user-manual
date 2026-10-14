@@ -274,8 +274,23 @@ Each PIN unlocks **one result for one student**. Once used, it stays tied to tha
   - manual payment updates and their journal;
   - wallet use and the wallet journal;
   - currency;
-  - virtual accounts (Squad) with the public key, secret key and payment email, whether charges fall on parents, and custom account names.
-- **Create Virtual Accounts:** pre-create a number of virtual accounts.
+  - virtual accounts: switch on **Activate virtual account?**, choose the journal for virtual account payments, and whether charges fall on parents (Squad);
+  - the **Payment Email** used when a student has no email address.
+- **Virtual account provider** (same page, shown when virtual accounts are on): pick **Squad** or **Monnify** and choose **Use Squad** / **Use Monnify**. The key fields in the form below follow the provider you pick, so enter and **Save** the new provider's keys before switching:
+  - **Squad:** public key and secret key. Leave the secret key empty to use the platform's Squad account, whose pool is shared with other schools that do the same. Custom account names can be set for pool accounts.
+  - **Monnify:** API key, secret key and contract code.
+
+  Each provider's keys are stored separately, so switching never sends one provider's keys to the other. Accounts parents already have keep working and are still credited after a switch. The card links to the provider's setup guide and, for Squad, to the account pool.
+- **Provider setup guides** (`/squad` and `/monnify`): step-by-step setup for each provider: where to find the keys, the **webhook URL** to paste into the provider's dashboard (with a **Copy** button), how to test in sandbox, and going live.
+  - Squad webhook: `https://<your-domain>/api/eedu/virtual-accounts/webhook/squad`. The older `/sqaudva/webhook/success`, `/expired` and `/mismatch` addresses still work.
+  - Monnify webhook (the **Transaction Completion** URL): `https://<your-domain>/api/eedu/virtual-accounts/webhook/monnify`.
+  - eedu.ng checks each webhook's signature, and for Monnify also confirms the payment with Monnify before crediting the fee.
+- **Create Virtual Accounts** (Squad): Squad hands out payment accounts from a pool you create in advance, and each one returns to the pool after it's paid or expires. The page shows:
+  - **In pool**, **Assigned to payers now**, **Free (estimate)** and **Still being created**;
+  - whether the school is in **Test mode** or **Live**, and whether it uses the **Shared platform pool**;
+  - warnings when the pool is running low, when it ran out in the last 7 days (a parent was told no account was free), and the last error from Squad.
+
+  Enter **Accounts to add** and choose **Add to pool**. The first 10 are created straight away and the rest are queued, 10 every 5 minutes (this needs the server's cron job). Squad can't report the pool size, so eedu.ng counts the accounts it creates. Under **Existing accounts**, enter how many existed before eedu.ng started counting. Monnify needs no pool: it issues a fresh account for each payment.
 - **Utilities → SMS & Printing → Bulk SMS Options:** enable bulk SMS, and set the sender name and the nigeriabulksms.com username and password.
 - **Message Center → Chat panel:** add a support chat panel.
 - **Result access API:** a Portal Manager sees the school's open result-access address on the school page, for connecting other systems.

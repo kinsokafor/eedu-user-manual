@@ -29,15 +29,21 @@ Read [Getting started](getting-started.md) first.
 
 | Section | Items |
 |---|---|
-| **Bursary** | Fees & Accounts · Canteen & Bookstore |
-| **Management** | School · Students · Staff |
-| **Utilities** | Attendance |
+| **People** | Students · Staff |
+| **Money** | Fees & Accounts · Canteen & Bookstore |
+| **Gate** | Attendance |
+| **School** | School (your schools) · Plan & Invoices |
 
-{% hint style="info" %}
-The **SMS & Printing** item also appears in your sidebar, but those screens aren't part of the Bursar portal and open a "not found" page. To send debtor reminders, use the **SMS debtors** button on a fee (below). For other bulk SMS, ask a School Admin.
-{% endhint %}
+To send debtor reminders, use the **SMS debtors** button on a fee (below). For other bulk SMS, ask a School Admin.
 
-Your dashboard shows the school counters, a fee collection summary, and the Canteen and Bookstore cards.
+## Your dashboard
+
+- **Buttons:** *Record payment*, *Wallet top-up*, *Create entry* and *Sell books* (each when your plan includes it).
+- **Needs your attention:** for example no fees created for this term, or the canteen not yet able to take sales.
+- **Headline numbers:** fees **expected** this term, **recovered** (with a bar), **outstanding**, **collected today**, and the total **held in wallets**.
+- **Fee collection by class:** each fee's progress class by class, with **SMS debtors** where Bulk SMS is on.
+- **Collections, last 14 days:** a day-by-day bar chart; **Latest payments**.
+- **Canteen today** and **Bookstore today** (when the bookstore is on), and the **term checklist**.
 
 ---
 
@@ -298,13 +304,14 @@ On the same page, under **Book pack**:
 
 ## Students and staff
 
-- **Management → Students:** view students, add or import students, manage the class list, and print class lists. See the [School Admin manual](school-admin.md#students).
-- **Management → Staff:** the staff list, staff profiles and attendance reports.
-- A student's profile has **Financial Reports**: their clearance bill and debt profile.
+- **People → Students:** view students, add or import students, manage the class list, and print class lists. See the [School Admin manual](school-admin.md#students).
+- **People → Staff:** the staff list, staff profiles and attendance reports.
+- A student's profile shows their **fees** for the term (total, paid, balance) and **wallet balance** in the overview, and **Financial reports** (their clearance bill and debt profile) under Records. See [The student profile](school-admin.md#the-student-profile).
+- Use the **search** in the top bar to jump straight to a student or staff member by name or passcode.
 
 ## Attendance
 
-**Utilities → Attendance:**
+**Gate → Attendance:**
 - the attendance calendar;
 - **Term Duration** (opening and closing dates);
 - **Holidays**.

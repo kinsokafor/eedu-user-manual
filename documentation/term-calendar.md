@@ -54,8 +54,8 @@ A checklist of the recurring tasks in an eedu.ng school year, with who does each
 2. **The Dean** checks progress (the Update Result side panel, Track latest updates, and the HOD's department progress) and follows up.
 3. **Form teachers** check their class **broadsheet** for missing scores.
 4. **The Dean or form teachers publish** each class from the broadsheet. See [Publishing results](dean.md#publishing-results).
-5. **Form teachers** adjust any **report card comments** on Print Result, *after* the final publish.
-6. **Print report cards** (Print Result), or let parents view them online. If results need scratch cards, sell the cards: parents unlock results from the home page.
+5. **Form teachers** adjust any **report card comments** on Print Results, *after* the final publish.
+6. **Print report cards** (Print Results), or let parents view them online. Each printed card carries a QR code anyone can scan to check it is genuine. If results need scratch cards, sell the cards: parents unlock results from the home page.
 7. **The bursar** prints clearance bills for debtors and sends a final reminder.
 8. **The Portal Manager** moves the school to the next term (Active Session).
 

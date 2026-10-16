@@ -38,19 +38,19 @@ Work through these in order before staff start entering results.
 | # | Task | Where |
 |---|---|---|
 | 1 | Check the school's name, address, logo and colours | Ask eedu.ng support (School Basic Info is Software Engineer only) |
-| 2 | Add class streams (arms) | Management → School → School Settings → Class Streams |
+| 2 | Add class streams (arms) | School → School → School Settings → Class Streams |
 | 3 | Set the grading system | School Settings → Grading System |
 | 4 | Set the marking scheme | School Settings → Marking Scheme |
 | 5 | Set automatic result comments | School Settings → Result Comments |
 | 6 | Choose who signs report cards | School Settings → Result Signatory |
-| 7 | Add staff and give each a role | Management → Staff → Add Staff |
+| 7 | Add staff and give each a role | People → Staff → Add Staff |
 | 8 | Assign each teacher's classes and subjects | Staff profile → Subjects |
 | 9 | Assign form teachers | School Settings → Form teachers |
-| 10 | Add or import students | Management → Students → Add Student / Import Students |
+| 10 | Add or import students | People → Students → Add Student / Import Students |
 | 11 | Add bio-data fields your school needs | School Settings → Student & staff meta data settings |
 | 12 | Set promotion rules | School Settings → Promotion Control |
-| 13 | Set attendance options, term dates and holidays | Utilities → Attendance |
-| 14 | Set up fee accounts, then create fees | Bursary → Fees & Accounts (see the [Bursar manual](bursar.md)) |
+| 13 | Set attendance options, term dates and holidays | Gate → Attendance |
+| 14 | Set up fee accounts, then create fees | Money → Fees & Accounts (see the [Bursar manual](bursar.md)) |
 | 15 | Agree your plan with eedu.ng support before the trial ends | [Section 6](#6-your-plan-and-feature-switches) |
 | 16 | Create the term's exams | Academics → Exams & Results → Examinations → Create Exam |
 
@@ -58,7 +58,7 @@ Work through these in order before staff start entering results.
 
 ## 3. School Settings
 
-**Management → School → School Settings.** Only Portal Managers and Software Engineers can open these screens.
+**School → School → School Settings.** Only Portal Managers and Software Engineers can open these screens.
 
 ### Class Streams
 The arms of each class, for example *Gold*, *Diamond*, *A*, *B*.
@@ -86,12 +86,12 @@ How each subject's 100 marks are split.
 Automatic comments by average.
 - Each row has a **Comment**, and the **Min** and **Max** average it applies to.
 - For example: "An excellent result. Keep it up." for 75–100.
-- Publishing fills in each student's comment from these bands. Form teachers can then change individual comments on **Print Result**. Publishing again resets them to the automatic comment.
+- Publishing fills in each student's comment from these bands. Form teachers can then change individual comments on **Print Results**. Publishing again resets them to the automatic comment.
 
 ### Result Signatory
 The people whose names and signatures appear on report cards.
 - For each: the **Staff** member, **Preferred Name**, **Designation** (for example *Principal*) and **Position** on the card (left, centre or right).
-- Upload each signatory's signature from their staff profile (**Upload Signature**). School Admins, Deans and Portal Managers can do this.
+- Upload each signatory's signature from their staff profile (**Records → Signature**). School Admins, Deans and Portal Managers can do this.
 
 ### Form teachers
 One form teacher per class and stream: **Class**, **Stream** and **Form teacher**.
@@ -136,8 +136,10 @@ See the [School Admin manual](school-admin.md#staff) for adding staff. As Portal
   - Tertiary: Portal Manager, School Admin, HOD, Lecturer, Bursar, Security, Canteen.
 - **Teachers only see their own subjects.** Open the teacher's profile → **Subjects** and tick the subjects they teach in each class. A teacher with no subjects assigned cannot enter scores.
 - **Form teacher** is a role *and* an assignment. Give the person the Form Teacher role, then assign them a class in School Settings → Form teachers.
-- **Resetting a password:** open the person's profile → **Change password**.
-- **Signing in as a user:** Software Engineers, Portal Managers and School Admins see **Login to profile** on a profile. It opens eedu.ng as that person. Use it only to check what someone sees or to reproduce a problem, then sign out.
+- **Resetting a password:** open the person's profile → **⋯** (top right of the banner) → **Change password**.
+- **Signing in as a user:** Software Engineers, Portal Managers and School Admins see **⋯ → Log in as** on a profile. It opens eedu.ng as that person. Use it only to check what someone sees or to reproduce a problem, then sign out.
+- **One person, several schools.** A staff member who works in more than one school keeps one account. **Add Staff** checks the email first and offers to link them to your school (see [Adding staff](school-admin.md#adding-staff)). Their profile lists every school they're in, and they switch between them from the school card in the sidebar or the school button in the top bar (see [Switching schools](getting-started.md#switching-schools)).
+- **Who can link and remove staff:** Software Engineers anywhere; School Admins only for staff accounts, and only in schools they manage themselves.
 
 ---
 
@@ -158,7 +160,7 @@ See the [School Admin manual](school-admin.md#staff) for adding staff. As Portal
    - **Promoted** on their annual result, or in a class listed under *Promote all students in these classes*: moved to the next class.
    - **Not promoted:** stays in the same class.
    - **In the last class** (for example SSS 3): becomes **Alumni**.
-4. Afterwards, check **Management → Students → Manage Class List** and correct any individual student (see the [School Admin manual](school-admin.md#manage-class-list)).
+4. Afterwards, check **People → Students → Manage Class List** and correct any individual student (see the [School Admin manual](school-admin.md#manage-class-list)).
 
 ### Promotion rules
 **School Settings → Promotion Control** has three parts.
@@ -194,7 +196,7 @@ See [Plans and subscriptions](plans.md) for what each plan includes, the trial, 
 
 - When a feature is **on**, its menus, screens and dashboard cards are available to the staff and students who use it.
 - When it is **off**, its screens show a 🔒 notice or its buttons are removed. **Nothing is deleted.** Everything comes back when it's on again.
-- **(Software Engineer)** The switches are on the eEdu Admin dashboard. Check the school name in the sidebar first: a switch applies to the school currently selected. The school's plan sets the switches again when it moves to another plan. Plans themselves are managed under **School → Plan & Billing** (see [Plans and subscriptions](plans.md#software-engineer-managing-plans)).
+- **(Software Engineer)** The switches are on the eEdu Admin dashboard. Check the school shown at the top of the sidebar first: a switch applies to the school currently selected. The school's plan sets the switches again when it moves to another plan. Plans themselves are managed under **School → Plan & Billing** (see [Plans and subscriptions](plans.md#software-engineer-managing-plans)).
 
 Canteen and wallets are available on every plan. The canteen can't take sales until the bursar sets its accounts (see the [Bursar manual](bursar.md#canteen-and-wallet-settings)).
 
@@ -229,7 +231,7 @@ It also offers **Update Result**, **Broadsheet**, **Results**, **Download Excel*
 
 ## 8. Attendance settings
 
-**Utilities → Attendance → Settings**:
+**Gate → Attendance → Settings**:
 - **Days-off (weekend):** days with no school, for example Saturday and Sunday.
 - **School type:** day or boarding.
 - **School timezone:** Africa/Lagos for Nigerian schools.
@@ -244,7 +246,7 @@ See the [Security manual](security.md) for clocking in and out.
 
 ## 9. Scratch cards and ID cards
 
-### Scratch cards (Utilities → SMS & Printing → Scratch Cards)
+### Scratch cards (Communicate → SMS & Printing → Scratch Cards)
 Scratch cards carry a PIN that unlocks a student's result when the exam uses **Use pin to access result**. Parents can also use an old PIN to open their child's account without a password.
 
 1. Download the backdrop templates from the Scratch Cards page. Design the front with a space for the PIN, sized 3.5 in × 2 in.
@@ -267,10 +269,10 @@ Each PIN unlocks **one result for one student**. Once used, it stays tied to tha
 
 ## 10. Software Engineer tools
 
-- **Management → School → Add School:** create a school directly.
-- **Management → School → Options:** platform options.
-- **Management → School → Google Services:** Google Drive sign-in settings used by Remote Lessons (client ID, secret, redirect address). Teachers then connect their own Drive.
-- **Bursary → Fees & Accounts → Options:** payment settings per school:
+- **School → School → Add School:** create a school directly.
+- **School → School → Options:** platform options.
+- **School → School → Google Services:** Google Drive sign-in settings used by Remote Lessons (client ID, secret, redirect address). Teachers then connect their own Drive.
+- **Money → Fees & Accounts → Options:** payment settings per school:
   - manual payment updates and their journal;
   - wallet use and the wallet journal;
   - currency;
@@ -291,6 +293,6 @@ Each PIN unlocks **one result for one student**. Once used, it stays tied to tha
   - warnings when the pool is running low, when it ran out in the last 7 days (a parent was told no account was free), and the last error from Squad.
 
   Enter **Accounts to add** and choose **Add to pool**. The first 10 are created straight away and the rest are queued, 10 every 5 minutes (this needs the server's cron job). Squad can't report the pool size, so eedu.ng counts the accounts it creates. Under **Existing accounts**, enter how many existed before eedu.ng started counting. Monnify needs no pool: it issues a fresh account for each payment.
-- **Utilities → SMS & Printing → Bulk SMS Options:** enable bulk SMS, and set the sender name and the nigeriabulksms.com username and password.
+- **Communicate → SMS & Printing → Bulk SMS Options:** enable bulk SMS, and set the sender name and the nigeriabulksms.com username and password.
 - **Message Center → Chat panel:** add a support chat panel.
 - **Result access API:** a Portal Manager sees the school's open result-access address on the school page, for connecting other systems.

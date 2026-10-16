@@ -16,9 +16,9 @@ Read [Getting started](getting-started.md) first.
 
 | Section | Items |
 |---|---|
-| **Academics** | Exams & Results · My Timetable · E-learning · Pastoral Care |
-| **Management** | School |
-| **Utilities** | SMS & Printing (Bulk SMS) |
+| **My Teaching** | My Timetable · Exams & Results · E-learning · Pastoral Care |
+| **Communicate** | SMS & Printing (Bulk SMS) |
+| **School** | School |
 
 ## Your dashboard: department progress
 
@@ -74,8 +74,8 @@ You can see more if you're a form teacher for a level, or have been given a past
 
 ## Students
 
-**Management → School**, open your institution, then **Students**. This lists students by year, semester, level and department, with search. Click a student to open their profile. The profile has **Academic Reports**, **Bio/Meta Data** and, when Pastoral Care is on, the student's pastoral summary.
+**School → School**, open your institution, then **Students**. This lists students by year, semester, level and department, with search. Click a student to open their profile. The profile has **Academic Reports**, **Bio/Meta Data** and, when Pastoral Care is on, the student's pastoral summary.
 
 ## Bulk SMS
 
-**Utilities → SMS & Printing → Send Bulk SMS / Bulk SMS Reports.** See the [School Admin manual](school-admin.md#bulk-sms).
+**Communicate → SMS & Printing → Send Bulk SMS / Bulk SMS Reports.** See the [School Admin manual](school-admin.md#bulk-sms).

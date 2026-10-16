@@ -28,10 +28,17 @@ Read [Getting started](getting-started.md) first.
 | Section | Items |
 |---|---|
 | **Academics** | Exams & Results · Timetable · E-learning · Pastoral Care |
-| **Management** | School · Students |
-| **Utilities** | SMS & Printing (Bulk SMS) |
+| **People** | Students |
+| **Communicate** | SMS & Printing (Bulk SMS) |
+| **School** | School |
 
-The dashboard shows school counters and the Timetable, CBT, Remote Lessons and Pastoral Care cards.
+## Your dashboard
+
+- **Buttons:** *Create exam*, *Update result*, *Broadsheet* and *Bulk SMS*.
+- **Needs your attention:** for example no exam yet this term, classes without a form teacher, or teachers without subjects.
+- **Results progress** for the newest exam (choose another at the top): how much of each class's scoring is done, which subjects haven't started and who teaches them, and which classes are published or changed since publishing.
+- The **term checklist**, **Class timetables**, **E-learning**, **Annual results and promotion** (in the last term), **Pastoral care** and your own **pastoral duties**.
+- **Go to:** shortcuts such as *Examinations*, *Update result*, *Broadsheet* and *Print results*.
 
 ---
 
@@ -43,7 +50,7 @@ The dashboard shows school counters and the Timetable, CBT, Remote Lessons and P
 2. **Teachers enter scores** for their subjects, part by part (**Update Result**).
 3. **The broadsheet** puts every student's subject totals, overall total, average and position side by side for a class.
 4. **Publishing** from the broadsheet takes a snapshot of each student's result, including the comment. Only published results reach students and parents.
-5. **Report cards** are printed from **Print Result**.
+5. **Report cards** are printed from **Print Results**, each with a QR code that proves it is genuine.
 6. At the end of the session, **annual results** combine the exams marked *Use result for annual*, and decide promotion.
 
 {% hint style="info" %}
@@ -111,13 +118,20 @@ On the broadsheet choose **Publish**, then **Publish Result**, and confirm.
 - Republish whenever scores or comments change.
 
 ### 6. Report cards (Print Result)
-**Exams & Results → Print Result**, then choose the exam.
+**Exams & Results → Print Results**, then choose the exam.
 This screen works on **published** results, so publish from the broadsheet first.
 
-1. Choose the **Class** and **Stream**. Each student shows their total, subjects offered, average, position and comment.
-2. **To change a comment:** click it, type the new comment, and it saves by itself about two seconds after you stop typing (or choose **Save**). The change goes straight into the published result.
+1. The page shows the exam's name and term. Choose the **Class** and **Stream**.
+2. At the top: how many students have results, the **class average**, the **highest** and the **lowest** average.
+3. Each student's row shows their photo and name (opens their profile), **average**, **position** out of the class, **total** and **subjects**. The list button shows every subject's score. Order the list **By position** or **By name**.
+4. **To change a comment:** click it, type, and it saves by itself about two seconds after you stop typing; **Done** closes it. The change goes straight into the published result.
    **Note:** Publishing the class again from the broadsheet rewrites the comments. Make comment changes *after* the final publish.
-3. Open a student's result and choose **Print Result**.
+5. **Print:**
+   - **One student:** **View** on their row.
+   - **Some students:** tick them (or **Select all**), then **View and print** in the bar at the bottom.
+   - **The whole class:** **Print whole class**.
+
+   The results open one after another, in the order of the list, with **Back** and **Print** at the top. **Print** sends them all to the printer, one per page.
 
 The report card has:
 - the school letterhead;
@@ -127,7 +141,20 @@ The report card has:
 - the overall total, subjects offered, average and position;
 - the form teacher's comment;
 - the result infos;
-- the signatories.
+- the signatories;
+- a **QR code** to verify the result (below).
+
+#### Verifying a printed result (QR code)
+
+Every printed result carries a QR code with the words *Scan to verify this result* and a web address. Anyone (a parent, another school, an employer) can scan it with a phone camera, or type the address, without signing in. It opens the school's **official record** of that result:
+- the school's name and logo, and a **Verified result** badge;
+- the student, class, exam and term;
+- the total, average, position, number of subjects, and each subject's score and grade;
+- when the record was last updated.
+
+If anything on the paper differs from that page, the paper has been changed. A made-up or damaged code shows **Not verified**, and a result the school has withdrawn shows **Result withdrawn**.
+
+Each code is unique to its result and can't be guessed, so nobody can look up another student's result from it. The page always shows the current record: if you correct a score and republish, the page shows the corrected result, so reprint the card.
 
 ### 7. Performance analysis
 Open an exam from the Examinations list. **Performance Analysis** shows each class's card: the best students and statistics by subject. Use it at staff meetings.
@@ -198,7 +225,7 @@ The step-by-step guides are in the [Teacher manual](teacher.md#cbt-computer-base
 
 ## Students
 
-Under **Management → Students** you can:
+Under **People → Students** you can:
 - add students;
 - import students from Excel;
 - view and edit student records and bio-data;
@@ -213,4 +240,4 @@ As Dean you are a pastoral **manager**, like the School Admin. See the [Pastoral
 
 ## Bulk SMS
 
-**Utilities → SMS & Printing → Send Bulk SMS / Bulk SMS Reports.** See the [School Admin manual](school-admin.md#bulk-sms).
+**Communicate → SMS & Printing → Send Bulk SMS / Bulk SMS Reports.** See the [School Admin manual](school-admin.md#bulk-sms).

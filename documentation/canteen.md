@@ -21,6 +21,10 @@ Read [Getting started](getting-started.md) first. A phone or tablet with a camer
 | (top) | Dashboard · Message Center |
 | **Canteen** | New Sale · Items & Prices |
 
+On a phone, a bar along the bottom of the screen has **Home**, **New sale**, **Items**, **Messages** and **More** (the full menu).
+
+When you look a student up at the counter, their card shows their photo, name, class and passcode, with **Change** to pick someone else.
+
 ## Your dashboard
 
 - **Sales today** and the amount **Taken today**.

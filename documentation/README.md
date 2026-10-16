@@ -23,7 +23,9 @@ Everyone signs in at the same address. Each person then lands on the **portal** 
 - **Every account has one role.** The role decides which portal you land on and what you can do. A school admin sets a staff member's role when adding them, and can change it later.
 - **Your school's plan decides what you can use.** Publishing and printing results, the bursary, journals, bulk SMS, attendance, timetables, CBT, remote lessons, the bookstore and pastoral care each come with some plans. Anything your plan doesn't include shows a 🔒 notice or has its button removed; nothing is deleted. See [Plans and subscriptions](plans.md).
 - **Pastoral duties sit on top of a role.** Counsellor, welfare officer, house master and hostel master are not roles. A manager gives these duties to staff inside Pastoral Care, and they add to what that person can already do.
-- **Staff can belong to several schools.** If you work in more than one school on eedu.ng, the school name at the top of the sidebar is a switch. Choose the school you want to work on.
+- **Staff can belong to several schools.** If you work in more than one school on eedu.ng, switch between them from the school card at the top of the sidebar or the school button in the top bar. See [Switching schools](getting-started.md#switching-schools).
+- **Light or dark.** Use the sun/moon button in the top bar to choose a light or dark look, or to follow your device. See [Light and dark mode](getting-started.md#light-and-dark-mode).
+- **Printed results can be verified.** Every printed result carries a QR code that opens the school's official record, so anyone can check a result is genuine. See [Verifying a printed result](dean.md#verifying-a-printed-result-qr-code).
 
 ## Words the system uses
 
@@ -61,7 +63,6 @@ These are current gaps in the product. Where a workaround exists, it is describe
 {% endhint %}
 
 - **Lecturers:** the Lecturer role's portal (`/eedu/lecturer/`) has not been built yet. Lecturers cannot use eedu.ng after signing in until it is.
-- **Bursars and Bulk SMS:** the Bursar sidebar shows **SMS & Printing**, but those screens are not part of the Bursar portal and open a "not found" page. Ask a School Admin to send bulk SMS.
 - **Student permissions (exeat):** permissions can be granted from a staff member's profile. There is no button on a student's profile to grant a student permission.
 - **School Admins and new exams:** only Deans, HODs and Portal Managers see the **Create Exam** button. A School Admin should ask one of them to create the term's exams.
 - **Quick Portal Access "Login" tab** on the home page is empty. Students sign in from the **Login** page instead.

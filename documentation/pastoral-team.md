@@ -52,7 +52,7 @@ For recording behaviour as a teacher, see the [Teacher manual](teacher.md#pastor
 
 A **student's pastoral record** has tabs for **Behaviour**, **Welfare** and **Counselling**, shown only if you can see them. It also has the student's house, boarding, points for the term, and alerts.
 
-The same summary appears on the student's **profile page** (Management → Students → the student), with an alert banner at the top.
+The same summary appears on the student's **profile page** (People → Students → the student), with an alert banner at the top.
 
 ---
 

@@ -19,7 +19,9 @@ Read [Getting started](getting-started.md) first. The best device is a phone or 
 | Section | Items |
 |---|---|
 | (top) | Dashboard · Message Center |
-| **Utilities** | Attendance (Clock In, Clock Out) · Gate Incident |
+| **Gate** | Attendance (Clock In, Clock Out) · Gate Incident |
+
+On a phone, a bar along the bottom of the screen has **Home**, **Clock in**, **Clock out**, **Incident** and **More** (the full menu).
 
 ---
 
@@ -67,7 +69,7 @@ Rules:
 
 ## Recording a gate incident
 
-**Utilities → Gate Incident**, or **Record a gate incident** on the dashboard (when Pastoral Care is on).
+**Gate → Gate Incident**, or **Record a gate incident** on the dashboard (when Pastoral Care is on).
 
 1. Find the student by name or passcode.
 2. Choose the concern **Category**, for example *Lateness* or *Uniform*. Security staff record concerns only, not commendations.

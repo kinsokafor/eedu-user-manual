@@ -20,17 +20,23 @@ A **Form Teacher** has everything a Teacher has, plus the class-teacher tasks ma
 
 | Section | Items |
 |---|---|
-| **Academics** | Exams & Results · My Timetable · E-learning · Pastoral Care |
-| **Management** | School |
+| **My Teaching** | My Timetable · Exams & Results · E-learning · Pastoral Care |
+| **School** | School |
 
 ## Your dashboard
 
+- **Needs your attention:** for example no subjects assigned to you yet (scores can't be entered until a School Admin ticks your subjects), or work waiting to be marked.
+- **My score entry:** for the newest exam (choose another at the top), how far you are with each class and subject you teach, with a link to **Update result**.
 - **Today's lessons** from your published timetable, when Timetables are on.
-- The **CBT** and **Remote Lessons** cards.
-- The **Pastoral Care** card:
+- **To mark:** assignments with submissions waiting, and work marked but not yet sent to the gradebook.
+- **My CBT tests:** tests open now, starting this week, and recently closed.
+- **My pastoral duties** (when you have a pastoral role) and the **Pastoral care** card:
   - follow-ups due this week on entries you can see;
   - recent concerns about students you can see;
   - for counsellors, pending referrals.
+- The **term checklist**.
+
+**Form Teachers** also get a **My class** card for each class they look after: the number of students (boys and girls), who's in school today and who isn't, which subjects are still missing scores for the newest exam, and the class's pastoral summary. Their buttons include *Broadsheet*, *Print results* and *Annual broadsheet*.
 
 ---
 
@@ -52,7 +58,9 @@ Tips:
 ### (Form Teacher) Your class's results
 Form Teachers also have, under **Exams & Results**:
 - **Broadsheet:** your class's subject totals, total, average and position. **Print**, and **Publish** your class's results. See the [Dean manual](dean.md#publishing-results).
-- **Print Result:** your class's published report cards.
+- **Print Results:** your class's published report cards, with the class average, highest and lowest at the top.
+  - Print one student (**View**), the ones you tick (**View and print**), or **Print whole class**. See [Report cards](dean.md#6-report-cards-print-result).
+  - Every printed result carries a **QR code** that anyone can scan to check it's genuine (see [Verifying a printed result](dean.md#verifying-a-printed-result-qr-code)).
   - If your school's plan doesn't include publishing or printing results, those buttons are replaced by a notice. You can still enter scores and view the broadsheet.
   - Click a student's comment to change it. It saves by itself.
   - Make comment changes after the final publish, because publishing again resets comments to the automatic ones.
@@ -207,10 +215,13 @@ If you've been made a counsellor, welfare officer, house master or hostel master
 
 ## Students' profiles
 
-Open a student from anywhere their name is a link, for example your class list or pastoral lists. The profile shows:
-- their QR ID card;
-- **Message Student**;
-- their pastoral summary, when Pastoral Care is on: house, boarding, points this term, welfare alerts, and the behaviour you're allowed to see.
+Open a student from anywhere their name is a link, for example your class list, the results list or pastoral lists. The profile shows:
+- at the top, their photo, name, class, passcode and **Message**;
+- an **overview**: this term's class, their latest average and position, recent results with their strongest and weakest subjects, and their class history;
+- their pastoral summary, when Pastoral Care is on: house, boarding, points this term, welfare alerts, and the behaviour you're allowed to see;
+- their details and QR pass.
+
+Fees and other records appear only for staff whose role allows them. See [The student profile](school-admin.md#the-student-profile).
 
 ---
 

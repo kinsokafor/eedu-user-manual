@@ -35,25 +35,32 @@ On the eedu.ng home page, **Quick Portal Access** lets you enter just the passco
 
 ## Your dashboard
 
-Tiles show:
-- **Results:** the number of published results;
-- **School fees:** your fees (open it for balances);
-- **Wallet balance.**
+At the top, a greeting with your class, school and term. Your **passcode** is hidden: choose **Show passcode** to see it (on a shared screen it works like a password, so hide it again).
 
-When the school uses these features, you also see:
-- **Timetable;**
-- **New lessons** and **Assignments to do;**
-- **My books;**
+**To do first** lists what needs you now, for example:
+- fees outstanding (with **Pay**);
+- a test open now, or assignments due in the next three days;
+- a new result published;
+- new lessons to read.
+
+Then cards, when the school uses these features:
+- **Latest result:** the exam, your average and position;
+- **School fees:** how much is paid, with a bar, and the balance (**Pay** when something's owed);
+- **Wallet:** your balance and the latest movements;
+- **Today's timetable;**
+- **My learning:** new lessons, assignments to do, and tests;
 - **My conduct:** this term's points;
-- **Tests open now.**
+- **My books.**
 
 ## Your sidebar
 
 | Section | Items |
 |---|---|
+| (top) | Dashboard · Message Center |
 | **Academics** | Results · Timetable · My Learning (My Lessons, My Assignments, My Tests) · My Conduct |
-| **Bursary** | Fees & Wallet (School fees, Wallet statement, My Books) |
-| (top) | Message Center |
+| **Fees & Wallet** | School fees · Wallet statement · My Books |
+
+On a phone, a bar along the bottom of the screen has **Home**, **Learn**, **Results**, **Fees** and **More** (the full menu).
 
 ---
 
@@ -66,9 +73,15 @@ The report card shows:
 - the overall total, average and position;
 - the form teacher's comment;
 - the school's notes (for example, next term's date);
-- the signatures.
+- the signatures;
+- a **QR code** marked *Scan to verify this result*.
 
 Annual (end-of-session) results appear too, when the school publishes them.
+
+### Proving a printed result is genuine
+Anyone you give a printed result to (another school, a scholarship body, an employer) can scan its QR code with a phone camera, or type the web address printed beside it. Without signing in, they see the school's official record of that result: the school, your name, class, exam and term, your total, average, position, and every subject's score and grade, marked **Verified result**. If something on the paper doesn't match, they know it has been changed.
+
+The code only opens that one result, and nobody can use it to look up anyone else's.
 
 {% hint style="info" %}
 A result only appears once the school has **published** it. If your class's results are out but yours isn't, ask the form teacher.
@@ -95,7 +108,7 @@ Please note:
 Paying fees online needs the school's plan to include the bursary. If it doesn't, the fees screens show a notice; pay at the school's bursary instead.
 {% endhint %}
 
-**Bursary → Fees & Wallet → School fees** shows a table of fees. For each fee:
+**Fees & Wallet → School fees** shows a table of fees. For each fee:
 - **Fee**, **Period**, **Amount Due**, **Payment Received** and **Balance**;
 - a **Pay** button, or *Paid completely*.
 
@@ -130,12 +143,12 @@ To change the amount after generating an account, choose **Pay a different amoun
 Every payment has a receipt. Open it with **View receipt** after paying, or with the **Receipt** button under **Payments received**. It shows the receipt number, what was paid, how, the balance after the payment and, for installments, which payment it was. Choose **Print / save as PDF** to keep a copy.
 
 ### Wallet statement
-**Bursary → Fees & Wallet → Wallet statement** lists every wallet movement: top-ups at the bursary, canteen purchases, book purchases, refunds, and fee overpayments. It shows the balance after each.
+**Fees & Wallet → Wallet statement** lists every wallet movement: top-ups at the bursary, canteen purchases, book purchases, refunds, and fee overpayments. It shows the balance after each.
 
 The wallet pays for canteen food and bookstore books with the student's ID card. Top it up at the bursary (cash or bank transfer).
 
 ### My Books
-**Bursary → Fees & Wallet → My Books** (when the school has a bookstore):
+**Fees & Wallet → My Books** (when the school has a bookstore):
 - the class **book list**, *Required* and *Recommended*, with prices;
 - the **book pack**, if the school sells one through fees: how much is paid, and which books have been collected. "Paid. Collect your books from the bursary" means you can pick them up;
 - **What I've bought:** books bought at the bookstore, with receipts.
@@ -203,4 +216,4 @@ If you started by mistake or had a problem, tell your teacher. Only a Dean or ad
 
 ## Messages
 
-**Message Center → Compose** sends a message to a group of staff by role, for example the Bursar or the School Admin. **Inbox** shows messages sent to you. Keep messages polite and about school matters.
+**Message Center** has **Inbox** and **Compose**, side by side at the top of the page. **Compose** sends a message to a group of staff by role, for example the Bursar or the School Admin. **Inbox** shows messages sent to you; unread ones are tinted. Keep messages polite and about school matters.

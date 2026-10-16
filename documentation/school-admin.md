@@ -27,27 +27,33 @@ Read [Getting started](getting-started.md) first.
 | Section | Items |
 |---|---|
 | **Academics** | Exams & Results · Timetable · E-learning · Pastoral Care |
-| **Bursary** | Fees & Accounts · Canteen & Bookstore |
-| **Management** | School · Students · Staff |
-| **Utilities** | Attendance · SMS & Printing (Bulk SMS) |
+| **People** | Students · Staff |
+| **Money** | Fees & Accounts · Canteen & Bookstore |
+| **Gate** | Attendance |
+| **Communicate** | SMS & Printing (Bulk SMS, ID cards, scratch cards) |
+| **School** | School (your schools) · Plan & Invoices |
+
+If you work in more than one school, switch between them from the school card at the top of the sidebar or the school button in the top bar (see [Getting started](getting-started.md#switching-schools)).
 
 ## Your dashboard
 
-- Counters for students, staff and fees.
-- A card for each switched-on feature: Canteen, Bookstore, Timetable, CBT, Remote Lessons and Pastoral Care.
-
-The Pastoral Care card also shows:
-- safeguarding flags waiting for acknowledgement;
-- serious concerns still open;
-- follow-ups due this week;
-- recent concerns.
+- **Buttons** for your most common jobs: *Add student*, *Import students*, *Add staff*, *Bulk SMS* and *Record payment*.
+- **Needs your attention:** for example term dates not set, teachers without subjects, classes without a form teacher, or no fees for this term.
+- **Headline numbers:** students, staff, fees recovered and outstanding, and present today.
+- **Cards:**
+  - **This term** and the **term checklist** (what to do at the start of a term);
+  - **Results progress** for the newest exam, class by class;
+  - **School fees this term** and **At the gate today**;
+  - **Canteen today**, **Class timetables** and **E-learning**;
+  - **Pastoral care**: safeguarding flags waiting for acknowledgement, serious concerns still open, follow-ups due this week and recent concerns.
+- **Go to:** shortcuts to the pages you use most. A locked shortcut belongs to a feature your plan doesn't include.
 
 ---
 
 ## Students
 
 ### Adding one student
-**Management → Students → Add Student**
+**People → Students → Add Student**
 1. Enter the **Student Name** (surname, middle name, other names), **Gender**, **Phone Number** and **Email**.
    - The phone number should be the parent's. It is used for fee reminders and pastoral SMS.
    - Email is optional.
@@ -56,7 +62,7 @@ The Pastoral Care card also shows:
 4. Save. The student gets a **passcode**, which is also their first password.
 
 ### Importing many students
-**Management → Students → Import Students**
+**People → Students → Import Students**
 1. **Download template.** It is an Excel file with one row per student.
    - Required columns are marked `*`.
    - Class, Stream and Gender have drop-downs with your school's values.
@@ -71,27 +77,39 @@ The Pastoral Care card also shows:
 6. Choose **Download passcodes** and keep the file safe: passcodes are login details.
 
 ### Finding and viewing students
-- **Management → Students → Students Management** shows:
+- **People → Students → Students Management** shows:
   - this term's population compared with last term;
   - recently added students;
   - the latest class changes.
-- **View Students** lists students by **Academic Year**, **Term**, **Class** and **Stream**, with search. It shows each passcode, gender and parent phone number. Switch between grid and list views.
-- Click a student to open their **profile**:
-  - QR ID card;
-  - **Academic Reports**, **Financial Reports**, **Attendance Report** and **Bio/Meta Data**;
-  - **Edit** and **Change password**;
-  - **Message Student**;
-  - **Pastoral** section, when Pastoral Care is on:
-    - house and boarding;
-    - this term's merits and demerits;
-    - welfare alerts at the top of the page;
-    - behaviour, welfare and counselling summaries, as your role allows.
+- **View Students** lists students by **Academic Year**, **Term**, **Class** and **Stream**, with search. Use the two buttons above the list to switch between:
+  - **cards**: photo, name, class, passcode and phone, with *View profile*;
+  - **a table**: photo and name (with the passcode under it), class, gender, parent phone and **View**.
+- Click a student's name, card or row to open their profile.
+
+### The student profile
+
+At the top, a banner with the student's photo, name, class and stream, passcode, gender and status, and:
+- **Message**, to write to the student;
+- **Edit**;
+- **⋯** (Software Engineers, Portal Managers and School Admins): **Change password** and **Log in as** the student.
+
+**Overview** (for the school you're working in):
+- **This term's class**, **latest average** (with the change since the result before), **position** out of the class, and **attendance** this term (days present; it needs the term's dates under Attendance → Term Duration).
+- **Recent results:** each exam with its term, the average, the position, and the strongest and weakest subject.
+- **Fees** (Bursars, School Admins and Portal Managers, when Bursary is on): total, paid and balance for the term, and the **wallet balance**.
+- **Class history:** the classes the student has been in, newest first.
+- **Pastoral** section, when Pastoral Care is on: house and boarding, this term's merits and demerits, welfare alerts at the top of the page, and behaviour, welfare and counselling summaries as your role allows.
+
+**Beside the overview:**
+- **Details:** the personal details that are filled in (names, phone, date of birth, parent, address, home town, LGA, state of origin).
+- **Records:** **Academic reports**, **Financial reports**, **Attendance report**, **Bio / meta data** and, when allowed, **Pastoral record**.
+- **Pass:** the QR code and passcode used on the ID card.
 
 ### Editing a student
 Profile → **Edit**. Change the name, gender, phone, email or picture. To change a student's class, use Manage Class List.
 
 ### Manage Class List
-**Management → Students → Manage Class List**
+**People → Students → Manage Class List**
 - Tabs: **Active**, **Archive** and **Deleted** students for the active term.
 - Search, or filter by class and stream. Open a student to:
   - change their **Class** and **Stream** for this term;
@@ -100,32 +118,56 @@ Profile → **Edit**. Change the name, gender, phone, email or picture. To chang
 - Every change is listed under "Latest Class Modifications" with who made it and when.
 
 ### Printing a class list
-**Management → Students → Print Class List.** Tick the columns you want (name, passcode, gender, phone…), choose the class, and print.
+**People → Students → Print Class List.** Tick the columns you want (name, passcode, gender, phone…), choose the class, and print.
 
 ---
 
 ## Staff
 
 ### Adding staff
-**Management → Staff → Add Staff**
-1. Enter the staff member's email address, or leave it blank if they have none, and choose **Continue**.
-2. What happens next depends on whether the email is known:
-   - **Already on eedu.ng** (for example, they work in another school): eedu.ng shows "Record found!". Choose **Add staff to** *your school* to link them.
-   - **New:** fill in the **Staff Name**, **Gender**, **Phone Number**, **Email**, **Role** and **Staff Picture**, and save.
+**People → Staff → Add Staff** (or **+ New → Add staff** in the top bar)
+
+Someone who already works in another eedu.ng school keeps one account, so eedu.ng checks their email first.
+
+1. **Check the email.** Enter the staff member's email and press **Enter** or **Check** (it also checks by itself when you stop typing):
+   - **Record found:** they already have an account. Their card is shown with the schools they're in. Choose **Add staff to** *your school* to link them; nothing else to fill in.
+   - **No account uses this email:** choose **Register new staff** to fill in their details (the email is carried over).
+   - **This email belongs to an account that isn't staff** (for example a student): use a different email for the staff member.
+   - **Staff has no email:** choose this button to go straight to the new-staff form.
+2. **New staff:** fill in the **Staff Name** (surname first), **Gender**, **Phone Number**, **Email**, **Role** and **Staff Picture**, and save. They're added to your school.
 3. The new staff member signs in with their passcode (or email). Their first password is their passcode.
 
-### The staff profile
-Open a staff member from **Management → Staff → Staff**.
+Close the box (× or **Esc**) to leave without adding anyone.
 
-| Item | What it does |
+{% hint style="info" %}
+School Admins can add staff to, and remove them from, **the schools they manage themselves**. You can't remove yourself from a school; ask a Software Engineer.
+{% endhint %}
+
+### Finding staff
+**People → Staff → Staff** lists your school's staff as **cards** or as **a table** (the two buttons above the list): photo, name and passcode, role or job title, email and phone, and **View**. Click a name, card or row to open the profile.
+
+### The staff profile
+
+At the top, a banner with the staff member's photo, name, role or job title, passcode, gender and status, and **Message**, **Edit** and **⋯** (**Change password**, **Log in as**) for those allowed.
+
+**Overview** (for the school you're working in):
+- **Classes taught** and how many subjects, **score entry** for the newest exam (how much of their scoring is done), **form class**, and **attendance** this term (days clocked in).
+- **Teaching:** the subjects they teach in each class, and score entry for the newest exam class by class, slowest first (**Show all** for the rest).
+- **Schools:** every school they work in, with *This school* marked, and when they were added here.
+- **Form teacher of:** the classes they're form teacher of.
+
+**Records** (beside the overview):
+
+| Record | What it does |
 |---|---|
-| Attendance Report | Their clock-in and clock-out history and attendance score |
-| Upload Signature | The signature printed on report cards, for result signatories |
-| Bio/Meta Data | Their details |
-| **Subjects** | The classes and subjects they teach. **Teachers can only enter scores for subjects ticked here.** |
+| Attendance report | Their clock-in and clock-out history and attendance score |
+| **Subjects** | The classes and subjects they teach. **Teachers can only enter scores for subjects ticked here.** (Teachers, lecturers and form teachers.) |
+| Bio / meta data | Their full details |
+| Signature | The signature printed on report cards, for result signatories |
 | Permissions | Grant permission to be absent (see below) |
-| Remove Staff | Remove them from this school. Their account and history stay. |
-| Edit / Change password | Change their details, their role, or set a new password |
+| Remove from school | Remove them from this school. Their account and history stay. |
+
+**Details** and the **Pass** (QR code and passcode) are beside the overview too.
 
 ### Granting permission (exeat) to staff
 Staff profile → **Permissions**:
@@ -139,7 +181,7 @@ Student permissions can't be granted from a student's profile yet.
 {% endhint %}
 
 ### Printing a staff list
-**Management → Staff → Print Staff List.** Choose the columns, then print.
+**People → Staff → Print Staff List.** Choose the columns, then print.
 
 ---
 
@@ -156,7 +198,7 @@ The term's exams are created by a Dean, HOD or Portal Manager: you don't have th
 The full results workflow is in the [Dean manual](dean.md#results):
 - **Update Result**, to enter scores;
 - **Broadsheet** and **Publish**;
-- **Print Result**;
+- **Print Results**, where you pick results to print or print a whole class; every printed result carries a **QR code** anyone can scan to check it's genuine (see [Report cards](dean.md#6-report-cards-print-result));
 - **Annual Broadsheet**, **Annual Results** and promotion;
 - **Download/Upload Excel**;
 - **Track latest updates**;
@@ -184,7 +226,7 @@ As School Admin you can also:
 
 ## Attendance
 
-**Utilities → Attendance**
+**Gate → Attendance**
 - **Clock In** and **Clock Out** screens for the gate (see the [Security manual](security.md)).
 - **Attendance:** a calendar. Pick a day to see who was in, with their times.
 - **Term Duration:** the term's opening and closing dates.
@@ -198,11 +240,13 @@ A person's attendance history is on their profile (**Attendance Report**):
 
 ## Bulk SMS
 
-**Utilities → SMS & Printing → Bulk SMS**
-- **Send Bulk SMS:**
-  - Choose the recipients: quick-select all students, all staff, a class or a stream, or pick people by name.
-  - Type the **Message** and send.
-  - Messages to students go to the parent phone number on the student's record.
+**Communicate → SMS & Printing → Send Bulk SMS** (or **+ New → Send bulk SMS**)
+- **Step 1, choose who gets it:**
+  - **Quick select** (beside the list on a computer, above it on a phone): **All students**, **All staff**, a **class**, or a class and stream (open **Class and stream**). Each chip shows how many people it covers; it's ticked when they're all chosen and outlined when only some are. Tap it again to take them off.
+  - **One by one:** tick people in the list. Search by name.
+  - The bar at the bottom shows how many you've chosen, with **Clear** and **Write message**.
+- **Step 2, write it:** the screen shows *Sending to N people* with the first names. Type the **Message** (the counter shows how many SMS pages it will use) and send. **Change recipients** goes back with your choice kept.
+- Messages to students go to the parent phone number on the student's record.
 - **Bulk SMS Reports:** your SMS account, unit balance, delivery report, message history and credit (payment) history.
 - **Recharging:** pay at nigeriabulksms.com, using your account's email address as the payment narration.
 

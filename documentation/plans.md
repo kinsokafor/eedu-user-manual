@@ -70,7 +70,7 @@ Signing up for the **Free plan** starts no trial.
 
 ## (Software Engineer) Managing plans
 
-These screens are in the **School** menu of the eEdu Admin portal. Check the school name in the sidebar first: Plan & Billing works on the school currently selected.
+These screens are in the **School** menu of the eEdu Admin portal. Check the school shown at the top of the sidebar first: Plan & Billing works on the school currently selected.
 
 - **Plan & Billing**
   - **Plan:** assign or change the school's plan. A plan you assign renews every term. The switch *renews automatically every term* is on; switching it off cancels the plan immediately and moves the school to Free.

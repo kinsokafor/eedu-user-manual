@@ -30,7 +30,7 @@ Read [Getting started](getting-started.md) first.
 | **People** | Students · Staff |
 | **Money** | Fees & Accounts · Canteen & Bookstore |
 | **Gate** | Attendance |
-| **Communicate** | SMS & Printing (Bulk SMS, ID cards, scratch cards) |
+| **Communicate** | Messaging & Printing (Email & notifications, Bulk SMS, ID cards, scratch cards) |
 | **School** | School (your schools) · Plan & Invoices |
 
 If you work in more than one school, switch between them from the school card at the top of the sidebar or the school button in the top bar (see [Getting started](getting-started.md#switching-schools)).
@@ -60,6 +60,8 @@ If you work in more than one school, switch between them from the school card at
 2. Choose the **Class**, **Stream**, **Term** and **Section** the student is joining.
 3. Add a **Student Picture** if you have one. It is used on the ID card.
 4. Save. The student gets a **passcode**, which is also their first password.
+
+If you've switched on **New student: portal access for parents** (see [Email and notifications](#email-and-notifications)), the parent is sent the passcode by SMS and email. This also applies to imported students.
 
 ### Importing many students
 **People → Students → Import Students**
@@ -136,6 +138,7 @@ Someone who already works in another eedu.ng school keeps one account, so eedu.n
    - **Staff has no email:** choose this button to go straight to the new-staff form.
 2. **New staff:** fill in the **Staff Name** (surname first), **Gender**, **Phone Number**, **Email**, **Role** and **Staff Picture**, and save. They're added to your school.
 3. The new staff member signs in with their passcode (or email). Their first password is their passcode.
+4. eedu.ng emails them a **welcome**, saying who added them, as what role, and how to sign in. Your school's other School Admins and Portal Managers are told too (you aren't, as you added them). This happens when an existing account is linked to your school as well.
 
 Close the box (× or **Esc**) to leave without adding anyone.
 
@@ -240,7 +243,7 @@ A person's attendance history is on their profile (**Attendance Report**):
 
 ## Bulk SMS
 
-**Communicate → SMS & Printing → Send Bulk SMS** (or **+ New → Send bulk SMS**)
+**Communicate → Messaging & Printing → Send Bulk SMS** (or **+ New → Send bulk SMS**)
 - **Step 1, choose who gets it:**
   - **Quick select** (beside the list on a computer, above it on a phone): **All students**, **All staff**, a **class**, or a class and stream (open **Class and stream**). Each chip shows how many people it covers; it's ticked when they're all chosen and outlined when only some are. Tap it again to take them off.
   - **One by one:** tick people in the list. Search by name.
@@ -251,6 +254,18 @@ A person's attendance history is on their profile (**Attendance Report**):
 - **Recharging:** pay at nigeriabulksms.com, using your account's email address as the payment narration.
 
 Bulk SMS must be included in your school's plan, and then set up for your school by eedu.ng support.
+
+## Email and notifications
+
+eedu.ng tells parents, students and staff when something concerns them: results published, fees and receipts, new staff, tests and assignments, and more. Emails go out in your school's name, with your logo and colour; texts use your bulk SMS units. [Emails and notifications](notifications.md) lists every message and who gets it.
+
+- **Communicate → Messaging & Printing → Message templates:** change the wording of any message, choose its channels (email, SMS, in-app), switch it on or off, preview it and send yourself a test. See [Changing the wording](notifications.md#changing-the-wording-school-admins).
+- **Sender & quiet hours** (a tab on that page): your sender name, reply-to email, accent colour and the hours when texts wait. See [Sender and quiet hours](notifications.md#sender-and-quiet-hours).
+- **Communicate → Messaging & Printing → Delivery log:** what was sent, what's waiting and what failed, with **Retry**. See [Checking what was sent](notifications.md#checking-what-was-sent).
+
+{% hint style="info" %}
+Two kinds of message are **off until you switch them on**: the parent passcode message for new students, and gate arrival and departure texts. Each gate text costs an SMS unit.
+{% endhint %}
 
 ---
 

@@ -24,7 +24,7 @@ Students and parents use the same account: the student's. With it you can:
 2. In **Email or Passcode**, enter the student's **passcode**. It is on the ID card, for example `E4646561737`.
 3. The first password is also the passcode. Please change it afterwards (**Account menu → Change Password**).
 
-Forgot the password? Ask the school office. They can set a new one.
+Forgot the password? If the student's account has an email address, use **forgot password?** on the Login page: you'll be emailed a 6-digit code to set a new one (see [Forgotten password](getting-started.md#forgotten-password)). Otherwise, ask the school office. They can set a new one.
 
 ### Quick Portal Access (no password needed)
 On the eedu.ng home page, **Quick Portal Access** lets you enter just the passcode and choose **Access Portal**. It shows the student's name and school, then offers:
@@ -217,3 +217,18 @@ If you started by mistake or had a problem, tell your teacher. Only a Dean or ad
 ## Messages
 
 **Message Center** has **Inbox** and **Compose**, side by side at the top of the page. **Compose** sends a message to a group of staff by role, for example the Bursar or the School Admin. **Inbox** shows messages sent to you; unread ones are tinted. Keep messages polite and about school matters.
+
+## Emails, texts and notifications from the school
+
+The school keeps you informed automatically. **Parents** are emailed and texted at the email address and phone number on the student's record, so tell the school when they change. **Students** see notifications under the bell (🔔) in the student portal.
+
+You'll hear about:
+
+- **Results:** when a term or annual result is published.
+- **Fees:** a new fee for the class, and a **receipt** for every payment and wallet top-up. Receipts arrive straight away.
+- **Lessons and tests:** a new CBT test (with when it opens and closes), a new assignment (with its due date), a new lesson, and marked work returned (with the score).
+- **The class timetable** when it's published.
+- **Gate arrival and departure texts**, if your school has switched them on.
+- **The student's portal passcode** when the student is added, if your school has switched it on. Keep it private: it's used to sign in.
+
+Texts that aren't urgent are held overnight (by default 9:00pm to 7:00am) and sent in the morning. Emails that aren't receipts or account messages have an **Unsubscribe** link at the bottom. See [Emails and notifications](notifications.md) for the full list.

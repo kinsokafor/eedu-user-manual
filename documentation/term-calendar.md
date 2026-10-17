@@ -33,6 +33,7 @@ A checklist of the recurring tasks in an eedu.ng school year, with who does each
 | **Copy last term's timetable**, then review and publish each class | DN | [Timetables](dean.md#timetables) |
 | Create the term's **exams** (CA tests, mid-term, examination) | DN | [Creating the exam](dean.md#1-creating-the-terms-exam) |
 | Print **ID cards** for new students and staff | PM | [ID cards](portal-manager.md#id-cards-software-engineer) |
+| Check **parents' phone numbers and emails** on new students' records, and the school's **email and notification** settings (sender, reply-to, quiet hours, which messages are on) | SA | [Email and notifications](school-admin.md#email-and-notifications) |
 
 ## During the term
 

@@ -64,6 +64,7 @@ Rules:
 ### Why it matters
 - Each person's **attendance score** (days present ÷ school days in the term) comes from these records. Holidays, days off and approved permissions don't count as absences.
 - Administrators and parents can see a student's clock-in history in their attendance report.
+- If the school has switched on gate texts, a student's parent is texted when the student arrives and leaves (the first clock-in and clock-out each day). Staff clock-ins send nothing. See [Emails and notifications](notifications.md#attendance).
 
 ---
 

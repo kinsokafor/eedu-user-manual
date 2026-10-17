@@ -17,7 +17,7 @@ Read [Getting started](getting-started.md) first.
 | Section | Items |
 |---|---|
 | **My Teaching** | My Timetable · Exams & Results · E-learning · Pastoral Care |
-| **Communicate** | SMS & Printing (Bulk SMS) |
+| **Communicate** | Messaging & Printing (Bulk SMS) |
 | **School** | School |
 
 ## Your dashboard: department progress
@@ -78,4 +78,4 @@ You can see more if you're a form teacher for a level, or have been given a past
 
 ## Bulk SMS
 
-**Communicate → SMS & Printing → Send Bulk SMS / Bulk SMS Reports.** See the [School Admin manual](school-admin.md#bulk-sms).
+**Communicate → Messaging & Printing → Send Bulk SMS / Bulk SMS Reports.** See the [School Admin manual](school-admin.md#bulk-sms).

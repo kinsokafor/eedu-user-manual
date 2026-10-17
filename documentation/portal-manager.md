@@ -22,7 +22,7 @@ A Portal Manager also holds the School Admin, Dean and Bursar permissions. Every
 3. **Step 2, Contact information:** website, phone numbers, email, and the current academic session.
 4. **Step 3, Your Information:** your name, email, phone number and password, and acceptance of the terms.
    - The password must have an upper-case letter, a lower-case letter and a number, and be at least 6 characters.
-5. Choose **Sign Up**. You become the school's Portal Manager and can sign in straight away.
+5. Choose **Sign Up**. You become the school's Portal Manager and can sign in straight away. eedu.ng emails you a **welcome** with your first set-up steps and the date your trial ends, and tells eedu.ng support that a new school has registered.
 6. Your school starts a **30-day trial** of the plan you chose on the Pricing page. eedu.ng support will contact you to confirm the plan; if it isn't confirmed by the end of the trial, the school moves to the Free plan. See [Plans and subscriptions](plans.md#signing-up-the-30-day-trial).
 
 {% hint style="warning" %}
@@ -136,7 +136,8 @@ See the [School Admin manual](school-admin.md#staff) for adding staff. As Portal
   - Tertiary: Portal Manager, School Admin, HOD, Lecturer, Bursar, Security, Canteen.
 - **Teachers only see their own subjects.** Open the teacher's profile → **Subjects** and tick the subjects they teach in each class. A teacher with no subjects assigned cannot enter scores.
 - **Form teacher** is a role *and* an assignment. Give the person the Form Teacher role, then assign them a class in School Settings → Form teachers.
-- **Resetting a password:** open the person's profile → **⋯** (top right of the banner) → **Change password**.
+- **Resetting a password:** open the person's profile → **⋯** (top right of the banner) → **Change password**. Anyone whose account has an email address can also reset their own from **forgot password?** on the Login page (see [Forgotten password](getting-started.md#forgotten-password)).
+- **New staff get a welcome email**, and the school's School Admins and Portal Managers are told when someone is added. See [Emails and notifications](notifications.md).
 - **Signing in as a user:** Software Engineers, Portal Managers and School Admins see **⋯ → Log in as** on a profile. It opens eedu.ng as that person. Use it only to check what someone sees or to reproduce a problem, then sign out.
 - **One person, several schools.** A staff member who works in more than one school keeps one account. **Add Staff** checks the email first and offers to link them to your school (see [Adding staff](school-admin.md#adding-staff)). Their profile lists every school they're in, and they switch between them from the school card in the sidebar or the school button in the top bar (see [Switching schools](getting-started.md#switching-schools)).
 - **Who can link and remove staff:** Software Engineers anywhere; School Admins only for staff accounts, and only in schools they manage themselves.
@@ -246,7 +247,7 @@ See the [Security manual](security.md) for clocking in and out.
 
 ## 9. Scratch cards and ID cards
 
-### Scratch cards (Communicate → SMS & Printing → Scratch Cards)
+### Scratch cards (Communicate → Messaging & Printing → Scratch Cards)
 Scratch cards carry a PIN that unlocks a student's result when the exam uses **Use pin to access result**. Parents can also use an old PIN to open their child's account without a password.
 
 1. Download the backdrop templates from the Scratch Cards page. Design the front with a space for the PIN, sized 3.5 in × 2 in.
@@ -293,6 +294,7 @@ Each PIN unlocks **one result for one student**. Once used, it stays tied to tha
   - warnings when the pool is running low, when it ran out in the last 7 days (a parent was told no account was free), and the last error from Squad.
 
   Enter **Accounts to add** and choose **Add to pool**. The first 10 are created straight away and the rest are queued, 10 every 5 minutes (this needs the server's cron job). Squad can't report the pool size, so eedu.ng counts the accounts it creates. Under **Existing accounts**, enter how many existed before eedu.ng started counting. Monnify needs no pool: it issues a fresh account for each payment.
-- **Communicate → SMS & Printing → Bulk SMS Options:** enable bulk SMS, and set the sender name and the nigeriabulksms.com username and password.
+- **Communicate → Messaging & Printing → Bulk SMS Options:** enable bulk SMS, and set the sender name and the nigeriabulksms.com username and password.
+- **Communicate → Messaging & Printing → Message templates → Platform defaults:** the wording every school starts with, and eedu.ng's own messages (*New school registered*, the password emails). **Delivery log → Sending health:** sending limits, routing, the Brevo API key, dry run and **Run queue now**. See [Platform defaults and sending](notifications.md#software-engineer-platform-defaults-and-sending).
 - **Message Center → Chat panel:** add a support chat panel.
 - **Result access API:** a Portal Manager sees the school's open result-access address on the school page, for connecting other systems.

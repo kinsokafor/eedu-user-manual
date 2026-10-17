@@ -115,7 +115,7 @@ Once students have answered a question in a test, only its wording and topic can
 | Let students review correct answers after it closes | Optional |
 | Gradebook (optional) | Link to an exam and choose which part of the marking scheme (for example CA1) the test counts towards |
 
-Choose **Create test**, add questions from your bank, then **Publish**.
+Choose **Create test**, add questions from your bank, then **Publish**. Students of the class get a notification with the opening and closing times. It isn't sent if you move the test back to draft or close it before it goes out.
 - **While scheduled or open:** you can move a published test **Back to draft** if nobody has started it, **Close test now**, or **Reopen** it later.
 - **Once students have started:** only the title, instructions and times can change.
 
@@ -157,13 +157,15 @@ How students take a test is described in the [Students and Parents manual](stude
 
 The Lessons list shows each lesson's status (*Draft*, *Published*, *Scheduled*), how many students opened it, and its videos and files.
 
+Students of the class get a notification when a lesson is published: straight away, or at the publishing time you set.
+
 ### Assignments
 **Assignments → New assignment** (or **Add an assignment** from a lesson)
 1. Enter the **Title**, **Subject**, **Class** and **Stream**, when it's **Due**, and what it's **Marked out of**.
 2. Tick **Accept late work** if late submissions are allowed. They're marked *late*.
 3. Write the **Instructions**, and choose how **Students answer**: *Typing an answer*, *Google Drive files*, or both.
 4. Optionally link to an exam's marking-scheme part (**Gradebook**).
-5. **Create assignment**, attach any files for students, and **Publish**.
+5. **Create assignment**, attach any files for students, and **Publish**. Students of the class get a notification with the due date.
    - **Close** stops submissions. **Reopen** allows them again.
    - After students have submitted, the class, subject and maximum score can't change.
 
@@ -171,6 +173,7 @@ The Lessons list shows each lesson's status (*Draft*, *Published*, *Scheduled*),
 Open an assignment → **Mark**.
 - Pick a student who has submitted. Read their answer and files, then enter a **Score** and **Feedback**.
 - **Save and return** shows the mark to the student now. **Save, return later** keeps it hidden until you choose **Return all marked work**.
+- Each student gets a notification with their score when their work is returned.
 - **Gradebook** tab: send marks into the linked exam, scaled like CBT scores.
 
 ---
@@ -190,7 +193,7 @@ Open an assignment → **Mark**.
    - *Warning*;
    - *Detention*;
    - *Parent contacted*;
-   - *Referred to counsellor*: sends the entry to the counsellors;
+   - *Referred to counsellor*: sends the entry to the counsellors, who are told a new referral is waiting (with your name, but nothing about the student);
    - *Other*.
 4. Optionally set a **Follow up by** date, and tick **Show this entry to the student** to share it in the student's portal.
 5. **Record.**

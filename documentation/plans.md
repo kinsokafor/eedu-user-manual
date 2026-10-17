@@ -65,6 +65,7 @@ Signing up for the **Free plan** starts no trial.
 - **Schools pay after the term.** At the end of each term eedu.ng sends an invoice worked out from your number of active students, or from the price agreed with your school.
 - **An unpaid invoice never locks your school out.** It shows as a balance on the dashboard banner.
 - **Seeing and printing your invoices:** Portal Managers, School Admins and Bursars open **School → Plan & Invoices** (or **View invoices** on the dashboard banner). It lists your school's invoices with the amount paid, the balance and the due date. **View** opens an invoice to print; quote its number (for example `EEDU-000123`) when you pay.
+- **Emails about your plan:** your School Admins and Portal Managers are emailed (and notified in the portal) when an invoice is issued, 3 days before it's due and if it becomes overdue, when a payment is recorded, when the plan starts, is renewed, enters its grace period or ends, and 7, 3 and 1 days before a trial ends. See [Emails and notifications](notifications.md#your-schools-plan).
 - **Changing plan:** contact eedu.ng support. A new plan's features switch on straight away.
 - **Leaving a plan:** when eedu.ng support stops your plan, your school moves to the Free plan straight away.
 

@@ -69,7 +69,7 @@ School Admins, Deans and Portal Managers.
    - **House master:** choose the house. They see their house's commendations and award house points.
    - **Hostel master:** choose the hostel. They manage beds and room lists there.
 
-   Set up houses and hostels first. Every team change is recorded in the access log.
+   Set up houses and hostels first. Every team change is recorded in the access log. The staff member is emailed to say they've joined the team, and in which role.
 
    **Note:** Managers can add themselves as counsellors. Keep the counsellor list to trained counsellors; the access log shows any change.
 2. **Behaviour categories.** eedu.ng starts you with common ones, which you can rename or add to:
@@ -124,7 +124,7 @@ Students without a bed this term are day students. A room's beds can't be reduce
 
 **Pastoral Care → Counselling** is your caseload:
 - **Safeguarding flags** you've raised that managers haven't acknowledged yet.
-- **Referrals:** behaviour entries where a teacher chose *Referred to counsellor*, with who referred the student and why.
+- **Referrals:** behaviour entries where a teacher chose *Referred to counsellor*, with who referred the student and why. Each new referral also sends every counsellor an email and a notification saying who made it, with nothing about the student; open your caseload to see it.
   - **Take this referral** marks it as yours.
   - **Record a session** opens the student's counselling tab linked to the referral.
 - **Follow-ups due** in the next 7 days.

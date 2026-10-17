@@ -3,6 +3,7 @@
 * [Welcome](README.md)
 * [Getting started](getting-started.md)
 * [Plans and subscriptions](plans.md)
+* [Emails and notifications](notifications.md)
 * [Term calendar](term-calendar.md)
 
 ## Administration

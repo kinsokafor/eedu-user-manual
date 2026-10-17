@@ -29,7 +29,7 @@ Read [Getting started](getting-started.md) first.
 |---|---|
 | **Academics** | Exams & Results · Timetable · E-learning · Pastoral Care |
 | **People** | Students |
-| **Communicate** | SMS & Printing (Bulk SMS) |
+| **Communicate** | Messaging & Printing (Bulk SMS) |
 | **School** | School |
 
 ## Your dashboard
@@ -116,6 +116,7 @@ On the broadsheet choose **Publish**, then **Publish Result**, and confirm.
 - If the exam uses **Use pin to access result**, each student's result stays locked until the student enters a scratch card PIN (see the [Students and Parents manual](student-and-parent.md#checking-results-with-a-scratch-card)).
 - Form teachers can publish their own class. Deans, HODs, School Admins and Portal Managers can publish any class.
 - Republish whenever scores or comments change.
+- **Parents are told** when a student's result is published, by email and SMS, and the student gets a notification in the portal. Republishing the same exam doesn't send it again. Annual results are announced the same way. See [Emails and notifications](notifications.md#results-lessons-and-tests).
 
 ### 6. Report cards (Print Result)
 **Exams & Results → Print Results**, then choose the exam.
@@ -240,4 +241,4 @@ As Dean you are a pastoral **manager**, like the School Admin. See the [Pastoral
 
 ## Bulk SMS
 
-**Communicate → SMS & Printing → Send Bulk SMS / Bulk SMS Reports.** See the [School Admin manual](school-admin.md#bulk-sms).
+**Communicate → Messaging & Printing → Send Bulk SMS / Bulk SMS Reports.** See the [School Admin manual](school-admin.md#bulk-sms).

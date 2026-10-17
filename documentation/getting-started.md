@@ -36,8 +36,21 @@ After signing in you land on your role's portal:
 
 ### Forgotten password
 
-- **If your account has an email address:** on the Login page choose **forgot password?**, enter your email and follow the link sent to you.
-- **If it doesn't (most students):** ask a School Admin or Portal Manager. They open your profile and choose **Change password** to set a new one.
+**If your account has an email address:**
+
+1. On the Login page choose **forgot password?** and enter your email address.
+2. eedu.ng emails you a **6-digit verification code**. The page says the same thing whether or not the address has an account, so nobody can use it to find out who is registered.
+3. Enter the code. It works once, for **15 minutes**. After 5 wrong tries it stops working; ask for a new code. Asking again cancels the earlier code.
+4. Choose a new password: at least 8 characters, with an upper-case letter, a lower-case letter, a number and a symbol (for example `#?!@$%^&*-`).
+5. You get an email saying your password was changed. If you didn't change it, reset it again straight away and tell your school's administrator.
+
+You can ask for at most 3 codes in 15 minutes. Codes come from eedu.ng itself; check your spam folder if one doesn't arrive.
+
+**If your account has no email address (most students):** ask a School Admin or Portal Manager. They open your profile and choose **Change password** to set a new one.
+
+{% hint style="info" %}
+Changing your password doesn't sign you out on other devices. If you think someone else knows your password, change it, then sign out on any shared computer you used.
+{% endhint %}
 
 ## 2. Finding your way around
 
@@ -98,6 +111,11 @@ A screen or button your school's plan doesn't include shows a notice such as *"B
 - **Inbox:** messages sent to you or to your role, newest first. Unread messages are tinted, with a purple edge. Open one to read the thread and reply.
 - **Compose:** choose a **role** in **To** to message everyone with that role at your school (for example, all bursars), write your message and send.
 - **Message one person:** open their profile and choose **Message** at the top.
+- **Email alerts (staff):** when you get a new message or reply, eedu.ng also emails you, at most once a day per conversation.
+
+### Notifications
+
+The **Notifications** bell (🔔) in the top bar lists what's happened that concerns you, for example a result published, a new assignment or a payment received. eedu.ng may also email or text you, in your school's name. [Emails and notifications](notifications.md) lists every message, who gets it, and how to unsubscribe from the ones that aren't essential.
 
 ## 4. Things that behave the same everywhere
 
@@ -118,4 +136,5 @@ What a student's or staff member's profile shows to staff (overview, details and
 - Never share your password.
 - A passcode alone is not a password. Change the first password so that someone who sees your ID card cannot sign in as you.
 - Log out on shared computers (**Account menu → Logout**).
+- eedu.ng never asks for your password by email or text. A password email from eedu.ng only ever contains a verification code you asked for.
 - Scratch card PINs and passcode lists are like cash. Keep printed lists locked away.

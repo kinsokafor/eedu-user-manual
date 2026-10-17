@@ -95,6 +95,8 @@ Ask support to switch on what your school needs.
 6. **Part payment** (optional): see [Letting parents pay in parts](#letting-parents-pay-in-parts).
 7. Save. A fee is created for each class and stream combination, and the page lists this term's fees.
 
+Parents of the class are told about the new fee **10 minutes later**, by email and in the student portal. If you spot a mistake, fix the amount or delete the fee within those 10 minutes: the notice uses the amount at the time it's sent, and nothing is sent for a deleted fee. A School Admin can also send it by SMS (see [Emails and notifications](notifications.md)).
+
 {% hint style="info" %}
 **One fee per class and stream per term.** If a class and stream already has a fee this term, a second one isn't created. To charge more, **Edit** the existing fee's amount, or create the extra fee for the next term. Book packs from the bookstore are separate and don't count against this.
 {% endhint %}
@@ -181,6 +183,8 @@ Every recorded payment has a receipt, with the school's letterhead, that can be 
 
 Open a receipt with the **Receipt** button in the **Payments** report, a student's clearance bill, or the student's **Financial Reports**. Bursars and school admins see receipts for their own school's students.
 
+**Parents get a receipt message automatically** for every payment, whether you record it or it comes in through a virtual account: by email and SMS (when your school has bulk SMS), with the amount, the fee, the balance and the reference. Receipts are sent straight away, even during SMS quiet hours, and can't be switched off.
+
 ### Payment report
 **Fees & Accounts → Payments.** Choose a **Start date** and **End date** to list every payment received: purpose, amount and date, each with a **Receipt** button.
 
@@ -228,7 +232,7 @@ The wallet and office receipts accounts are the same settings as "Wallet Journal
 2. Enter the **Amount** and choose the **Method**:
    - **Cash:** a reference is optional.
    - **Bank transfer:** the **Reference** is required, and choose the bank account it was **Paid into**.
-3. **Record top-up** and confirm. The new balance and voucher number are shown.
+3. **Record top-up** and confirm. The new balance and voucher number are shown, and the parent is sent a receipt by email and SMS with the amount, the new balance and the voucher number.
 
 Students and parents see every movement in the student portal's **Wallet statement**.
 
